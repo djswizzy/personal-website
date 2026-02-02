@@ -16,8 +16,8 @@ else
   echo "Warning: No GitHub token provided. Rate limits may apply."
 fi
 
-# Define the accounts to fetch
-ACCOUNTS=("joe-lannan" "koinslot-inc")
+# Define the accounts to fetch - Update with your GitHub username
+ACCOUNTS=("dcal")
 
 # Fetch repositories for each account
 for account in "${ACCOUNTS[@]}"; do
@@ -55,10 +55,7 @@ if command -v jq &> /dev/null; then
   echo "{\"updated_at\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"}" > assets/data/repos-updated.json
 else
   echo "Warning: jq command not found. Using fallback method to combine repositories."
-  echo "[" > assets/data/github-repos.json
-  cat assets/data/joe-lannan-repos.json | sed -e 's/\[//' -e 's/\]/,/' >> assets/data/github-repos.json
-  cat assets/data/koinslot-inc-repos.json | sed -e 's/\[//' -e 's/\]//' >> assets/data/github-repos.json
-  echo "]" >> assets/data/github-repos.json
+  cp assets/data/dcal-repos.json assets/data/github-repos.json
   # Create timestamp
   echo "{\"updated_at\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"}" > assets/data/repos-updated.json
 fi

@@ -3,7 +3,7 @@
 // Similar to the one shown on GitHub profiles
 
 document.addEventListener("DOMContentLoaded", function () {
-  const username = "joe-lannan"; // Your GitHub username (lowercase for better compatibility)
+  const username = "dcal"; // Your GitHub username (lowercase for better compatibility)
   const container = document.getElementById("github-heatmap-container");
 
   if (!container) return;
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     calendar.innerHTML = `
       <div class="calendar-wrapper">
         <iframe
-          src="https://github-readme-streak-stats.herokuapp.com/?user=joe-lannan&theme=default&hide_border=true"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=dcal&theme=default&hide_border=true"
           width="100%"
           height="180"
           frameborder="0"
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </iframe>
 
         <iframe
-          src="https://github-readme-stats.vercel.app/api?username=joe-lannan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true"
+          src="https://github-readme-stats.vercel.app/api?username=dcal&show_icons=true&count_private=true&include_all_commits=true&hide_border=true"
           width="100%"
           height="180"
           frameborder="0"
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </iframe>
 
         <iframe
-          src="https://ghchart.rshah.org/joe-lannan"
+          src="https://ghchart.rshah.org/dcal"
           width="100%"
           height="120"
           frameborder="0"

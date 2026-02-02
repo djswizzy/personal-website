@@ -3,7 +3,6 @@
 // Place this in assets/js/publications.js
 
 document.addEventListener('DOMContentLoaded', function() {
-  const authorId = 'XIiV4nwAAAAJ'; // Your Google Scholar ID from the _config.yml
   const container = document.getElementById('publications-container');
   const loadingElement = document.createElement('p');
   loadingElement.textContent = 'Loading publications...';
@@ -12,26 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   container.appendChild(loadingElement);
   
-  // To avoid CORS issues, we'd typically use a proxy or backend service
-  // For demo purposes, this will use the Semantic Scholar API
-  // You may need to replace this with a custom backend or proxy
-  const semanticScholarAuthorId = '2108017029'; // Replace with your Semantic Scholar ID
+  // TODO: Replace with your Semantic Scholar ID if you have publications
+  // const semanticScholarAuthorId = 'YOUR_SEMANTIC_SCHOLAR_ID';
   
-  fetch(`https://api.semanticscholar.org/graph/v1/author/${semanticScholarAuthorId}/papers?fields=title,year,venue,authors,externalIds,url,citationCount&limit=100`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Semantic Scholar API returned ${response.status}`);
-      }
-      return response.json();
-    })
-    .then(data => {
-      displayPublications(data.data);
-    })
-    .catch(error => {
-      handleError(error);
-      // Fallback to displaying sample publications for demo
-      displaySamplePublications();
-    });
+  // For now, display a placeholder message
+  displayPlaceholder();
   
   function displayPublications(papers) {
     // Remove loading message
@@ -175,62 +159,14 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Error loading publications:', error);
   }
   
-  function displaySamplePublications() {
-    const samplePapers = [
-      {
-        title: "Ultra-fast contraction of Spirostomum ambiguum: Mechanics and molecular underpinnings",
-        authors: [
-          {name: "Lannan, Joseph M."},
-          {name: "Aha, Robert"},
-          {name: "Elting, Mary W."}
-        ],
-        venue: "Journal of Cell Biology",
-        year: 2023,
-        externalIds: {DOI: "10.1083/jcb.202201123"},
-        url: "https://rupress.org/jcb/article/222/1/e202201123/213613/Ultra-fast-contraction-of-Spirostomum-ambiguum",
-        citationCount: 8
-      },
-      {
-        title: "Retro Gaming Systems: Hardware Innovations for Modern Nostalgia",
-        authors: [
-          {name: "Lannan, Joseph M."},
-          {name: "Smith, Jane B."},
-          {name: "Johnson, Robert C."}
-        ],
-        venue: "IEEE Transactions on Consumer Electronics",
-        year: 2022,
-        externalIds: {DOI: "10.1109/TCE.2022.3179235"},
-        url: "https://ieeexplore.ieee.org/document/9819553",
-        citationCount: 12
-      },
-      {
-        title: "Biophysical mechanisms of cellular contractions in unicellular organisms",
-        authors: [
-          {name: "Elting, Mary W."},
-          {name: "Lannan, Joseph M."},
-          {name: "Garcia, Thomas R."}
-        ],
-        venue: "Biophysical Journal",
-        year: 2021,
-        externalIds: {DOI: "10.1016/j.bpj.2020.12.018"},
-        url: "https://www.cell.com/biophysj/fulltext/S0006-3495(20)33568-X",
-        citationCount: 15
-      },
-      {
-        title: "Energy efficiency in ultrafast cellular contractions: A comparative study",
-        authors: [
-          {name: "Lannan, Joseph M."},
-          {name: "Brown, Sarah K."},
-          {name: "Elting, Mary W."}
-        ],
-        venue: "Conference on Biophysical Dynamics",
-        year: 2024,
-        externalIds: {DOI: "10.1101/2024.01.15.575283"},
-        url: "https://www.example.org/paper",
-        citationCount: 2
-      }
-    ];
+  function displayPlaceholder() {
+    // Remove loading message
+    if (container.contains(loadingElement)) {
+      container.removeChild(loadingElement);
+    }
     
-    displayPublications(samplePapers);
+    const message = document.createElement('p');
+    message.textContent = 'No publications listed yet.';
+    container.appendChild(message);
   }
 });

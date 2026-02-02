@@ -1,1 +1,0 @@
-[[@hawkesMyonemalContractionSpirostomum1975c]] measures the maximum force exerted by the myoneme on a glass-microbalance to be 4.8E5 pN. assuming the springs that effectively make up the myoneme are either at a 45degree angle or 

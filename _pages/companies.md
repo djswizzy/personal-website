@@ -1,59 +1,84 @@
 ---
 layout: archive
-title: "Companies"
+title: "Experience"
 permalink: /companies/
 author_profile: true
 ---
 
 {% include base_path %}
 
-# Entrepreneurial Ventures
+# Professional Experience
 
-## Koinslot INC (2022 - Present)
+## KOINSLOT Inc. (2024 - Present)
 
-<img src="/images/koinslot-logo.png" alt="Koinslot Logo" style="width: 200px; height: auto;">
+[KOINSLOT Inc.](https://github.com/KOINSLOT-Inc/) develops Kywy, a handheld "low-code" educational coding device designed to make programming accessible and fun for learners.
 
-[Koinslot](http://koinslotkywy.com) is a company I co-founded to produce a nostalgic gaming system with a focus on education. We've received initial funding and have contracted with Betabox INC to use our system in educational settings.
+### My Role: Software Engineer
 
-### My Role: President and Technical Director
-
-As the technical lead and co-founder, I'm responsible for:
-- Designing the hardware for our retro gaming system
-- Managing the programming and technical team
-- Overseeing product development and education integration
-
-### Company Mission
-
-Our mission is to provide an affordable and easily programmable educational system to engage K-12 students in hardware and embedded programming. The open-source design makes it ideal for teaching both programming and electronics concepts in a way that excites students through gaming.
-
-Visit us at [kywy.io](http://kywy.io)
+As a software engineer, I contribute to:
+- Developing complete games for the Kywy platform
+- Creating custom rotation algorithms for sprite rendering
+- Building asset-generation scripts in C++
+- Optimizing code for embedded hardware constraints
 
 ---
 
-## Sonar Applications INC (2020 - 2022)
+## Kondra Chemical (2025)
 
-[Sonar Applications](https://www.sonarmobileapp.com) was an audio-focused social media application I developed with my brother, Ethan Lannan. The app reached approximately 1,000 beta testers before the project was temporarily paused to pursue Koinslot.
+Kondra Chemical specializes in water quality analysis and chemical measurement solutions.
 
-### My Role: Technical Director
+### My Role: App Developer (Independent Contract)
 
-As Technical Director, I:
-- Led development of the app architecture
-- Managed technical implementation
-- Coordinated testing and user feedback loops
-
-### Project Status
-
-While currently on hold, we are exploring potential market pivots to better position the Sonar concept in today's social media landscape. The project demonstrated successful user acquisition and engagement, providing valuable insights for future development.
+I designed, built, tested, and delivered a complete LabView application:
+- Hardware control for spectrometer interfacing
+- Real-time data acquisition from measurement devices
+- Concentration interpolation algorithms for chemical analysis
+- Full end-to-end solution delivery
 
 ---
 
-## Technical Leadership
+## UC Berkeley & NC State University (2019 - 2025)
 
-Beyond founding these companies, I've held technical leadership positions in several organizations where I've managed teams and worked with non-technical leadership to produce products and services. I specialize in:
+Research institutions where I conducted my doctoral research in computational astrophysics.
 
-- Product development for educational technology
-- Hardware design and prototyping
-- Open-source technology development
-- Blending academic research with practical applications
+### My Role: Supernova Physicist / Ph.D. Researcher
 
-I'm passionate about creating technology that's repairable, accessible, and educationally valuable. My entrepreneurial work complements my academic research by applying scientific principles to real-world problems and opportunities.
+- Utilized high-fidelity MHD FORTRAN 3D supernova code on distributed HPC systems
+- Explored the role of turbulent plasma flow in supernova evolution
+- Developed Python scripts for data analysis and publication figures
+- Adapted numerical solvers for nonlinear PDEs with constraint-preserving methods
+
+---
+
+## Insightsoftware (2018 - 2019)
+
+Insightsoftware provides enterprise performance management and financial reporting solutions.
+
+### My Role: Business Systems Analyst
+
+- Planned and executed data migrations for multiple acquired companies
+- Leveraged SQL and SOQL to perform data migrations into Salesforce
+- Managed projects on short timescales with multiple stakeholders
+
+---
+
+## North Carolina State University - Physics IT (2015 - 2018)
+
+The Physics Department at NC State University, where I began my career in IT.
+
+### My Role: IT Systems Administrator
+
+- Co-managed IT operations for the Physics Department as one of two team members
+- Implemented test environments in Docker
+- Gained fluency in Linux systems administration
+- Supported faculty, staff, and students with technical needs
+
+---
+
+# Skills & Expertise
+
+- High-performance computing and parallel programming
+- Scientific software development
+- Data migration and systems integration
+- Embedded systems and game development
+- Hardware-software integration

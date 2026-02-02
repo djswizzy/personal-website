@@ -9,7 +9,7 @@ author_profile: true
 
 <div class="github-projects">
   <p>Below are my featured GitHub repositories, automatically fetched from my GitHub profile.</p>
-  <p>These repositories showcase my work in biophysics research, software development, and hardware projects related to Koinslot.</p>
+  <p>These repositories showcase my work in software development and various projects.</p>
 
   <!-- Container for dynamically loaded GitHub repositories -->
   <div id="github-projects-container">

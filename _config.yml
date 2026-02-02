@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
-title: "Joe Lannan"
+title: "David Calvert"
 title_separator: "-"
-name: &name "Joe Lannan"
-description: &description "Biophysicist • PhD Candidate • Entrepreneur"
-url: https://joe-lannan.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name: &name "David Calvert"
+description: &description "Computational Astrophysicist • Ph.D. Candidate • Software Developer"
+url: https://davidcalvert.me # Update this with your actual domain
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "joe-lannan/personal-website"
+repository: "dcal/personal-website" # Update with your actual GitHub repo
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -24,35 +24,35 @@ repository: "joe-lannan/personal-website"
 author:
   # Biographic information
   avatar: "profile.jpg"
-  name: "Joe Lannan"
+  name: "David Calvert"
   pronouns: # example: "she/her"
-  bio: "Biophysicist investigating ultrafast cellular contraction. PhD Candidate at NC State University. Founder of Koinslot INC."
-  location: "Raleigh, NC"
-  employer: "North Carolina State University, Elting Lab"
+  bio: "Ph.D. in computational astrophysics. Skilled in MHD simulations, plasma dynamics, and software development."
+  location: "San Francisco, CA"
+  employer: "UC Berkeley"
   uri: # URL
-  email: "jmlannan@ncsu.edu"
+  email: "djcalve2@berkeley.edu"
 
   # Academic websites
   academia: # URL
   arxiv: # URL - Update with the correct link to your profile
-  googlescholar: "https://scholar.google.com/citations?hl=en&user=XIiV4nwAAAAJ"
+  googlescholar: # URL - Add your Google Scholar profile
   impactstory: # URL
-  orcid: "https://orcid.org/0000-0002-1526-6018"
+  orcid: # URL - Add your ORCID
   semantic: # URL
   pubmed: # URL
   researchgate: # URL
   scopus: # URL
 
   # Repositories and software development
-  bitbucket: # Username - Update with your username on the site
+  bitbucket: # Username
   codepen: # Username
   dribbble: # Username
-  github: "Joe-Lannan"
+  github: "dcal" # Update with your GitHub username
   kaggle: # Username
-  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+  stackoverflow: # User number or user number and name
 
   # Social media
-  bluesky: # Replace this with you Bluesky username
+  bluesky: # Replace this with your Bluesky username
   facebook: # Username
   flickr: # Username
   foursquare: # Username
@@ -61,7 +61,7 @@ author:
   keybase: # Username
   instagram: # Username
   lastfm: # Username
-  linkedin: joseph-lannan # Username
+  linkedin: # Your LinkedIn username
   mastodon: # URL
   medium: # URL
   pinterest: # Username

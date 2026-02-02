@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   const maxRepos = 100; // Show many repositories
   // Custom logos for repositories (repo name -> logo file path)
+  // Add your own repository logos here if desired
   const repoLogos = {
-    koinslot: "/images/koinslot-logo.png",
-    kywy: "/images/koinslot-logo.png",
+    // "repo-name": "/images/repo-logo.png",
   };
   const loadingElement = document.createElement("p");
   loadingElement.textContent = "Loading GitHub repositories...";
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
       retryButton.onclick = function () {
         container.innerHTML = "";
         container.appendChild(loadingElement);
-        fetchAllRepositories(["joe-lannan", "koinslot-inc"])
+        fetchAllRepositories(["dcal"])
           .then((repos) =>
             displayRepositories(repos, null, maxRepos, repoLogos),
           )
@@ -225,12 +225,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const viewMoreContainer = document.createElement("div");
     viewMoreContainer.className = "view-more-container";
 
-    // Add buttons for joe-lannan and koinslot-inc
-    ["joe-lannan", "koinslot-inc"].forEach((username) => {
+    // Add button for GitHub profile
+    ["dcal"].forEach((username) => {
       const viewMoreBtn = document.createElement("a");
       viewMoreBtn.href = `https://github.com/${username}?tab=repositories`;
       viewMoreBtn.className = "btn btn--primary view-more-btn";
-      viewMoreBtn.textContent = `View more from ${username}`;
+      viewMoreBtn.textContent = `View more on GitHub`;
       viewMoreBtn.style.margin = "0 10px";
       viewMoreContainer.appendChild(viewMoreBtn);
     });
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const placeholderRepos = [
       {
         name: "personal-website",
-        html_url: "https://github.com/joe-lannan/personal-website",
+        html_url: "https://github.com/dcal/personal-website",
         description: "Personal website repository (static data failed to load)",
         size: 5000,
         stargazers_count: 3,
@@ -474,23 +474,8 @@ document.addEventListener('DOMContentLoaded', function() {
         updated_at: new Date().toISOString(),
         topics: ["website", "portfolio"],
         owner: {
-          login: "joe-lannan",
+          login: "dcal",
           avatar_url: "/images/favicon-192x192.png",
-        },
-      },
-      {
-        name: "koinslot",
-        html_url: "https://github.com/koinslot-inc/koinslot",
-        description: "Koinslot repository (static data failed to load)",
-        size: 8000,
-        stargazers_count: 5,
-        forks_count: 2,
-        language: "Python",
-        updated_at: new Date().toISOString(),
-        topics: ["koinslot", "platform"],
-        owner: {
-          login: "koinslot-inc",
-          avatar_url: "/images/koinslot-logo.png",
         },
       },
     ];
