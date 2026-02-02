@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
       retryButton.onclick = function () {
         container.innerHTML = "";
         container.appendChild(loadingElement);
-        fetchAllRepositories(["dcal"])
+        fetchAllRepositories(["djswizzy"])
           .then((repos) =>
             displayRepositories(repos, null, maxRepos, repoLogos),
           )
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
     viewMoreContainer.className = "view-more-container";
 
     // Add button for GitHub profile
-    ["dcal"].forEach((username) => {
+    ["djswizzy"].forEach((username) => {
       const viewMoreBtn = document.createElement("a");
       viewMoreBtn.href = `https://github.com/${username}?tab=repositories`;
       viewMoreBtn.className = "btn btn--primary view-more-btn";
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const placeholderRepos = [
       {
         name: "personal-website",
-        html_url: "https://github.com/dcal/personal-website",
+        html_url: "https://github.com/djswizzy/personal-website",
         description: "Personal website repository (static data failed to load)",
         size: 5000,
         stargazers_count: 3,
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updated_at: new Date().toISOString(),
         topics: ["website", "portfolio"],
         owner: {
-          login: "dcal",
+          login: "djswizzy",
           avatar_url: "/images/favicon-192x192.png",
         },
       },

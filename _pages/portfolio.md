@@ -9,7 +9,7 @@ author_profile: true
 
 # GitHub Profile
 
-[![GitHub](https://img.shields.io/badge/GitHub-dcal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dcal)
+[![GitHub](https://img.shields.io/badge/GitHub-djswizzy-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/djswizzy)
 [![KOINSLOT-Inc](https://img.shields.io/badge/GitHub-KOINSLOT--Inc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KOINSLOT-Inc/)
 
 ---

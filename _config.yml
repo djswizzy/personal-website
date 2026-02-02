@@ -13,9 +13,9 @@ title: "David Calvert"
 title_separator: "-"
 name: &name "David Calvert"
 description: &description "Computational Astrophysicist • Ph.D. Candidate • Software Developer"
-url: https://davidcalvert.me # Update this with your actual domain
+url: https://davidcalvert.dev
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "dcal/personal-website" # Update with your actual GitHub repo
+repository: "djswizzy/personal-website"
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -47,7 +47,7 @@ author:
   bitbucket: # Username
   codepen: # Username
   dribbble: # Username
-  github: "dcal" # Update with your GitHub username
+  github: "djswizzy"
   kaggle: # Username
   stackoverflow: # User number or user number and name
 
