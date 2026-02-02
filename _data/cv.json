@@ -3,8 +3,8 @@
     "name": "David Calvert",
     "email": "djcalve2@berkeley.edu",
     "phone": "609-713-7445",
-    "website": "",
-    "summary": "Ph.D. in computational astrophysics seeking a full-time position. Skilled in independent software development and 3D modeling with an emphasis on MHD, plasma dynamics, data analytics, C++, Python, MATLAB, and FORTRAN.",
+    "website": "https://davidcalvert.dev",
+    "summary": "Ph.D. in computational astrophysics. Skilled in independent software development and 3D modeling with an emphasis on MHD, plasma dynamics, data analytics, C++, Python, MATLAB, and FORTRAN.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,6 +17,11 @@
         "network": "GitHub",
         "username": "djswizzy",
         "url": "https://github.com/djswizzy"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0000-5846-5984",
+        "url": "https://orcid.org/0009-0000-5846-5984"
       }
     ]
   },
@@ -90,8 +95,7 @@
       "startDate": "2019",
       "endDate": "2025",
       "gpa": null,
-      "courses": [],
-      "url": ""
+      "courses": []
     },
     {
       "institution": "North Carolina State University",
@@ -100,8 +104,7 @@
       "startDate": "2014",
       "endDate": "2018",
       "gpa": null,
-      "courses": [],
-      "url": ""
+      "courses": []
     }
   ],
   "skills": [
@@ -175,7 +178,6 @@
       ]
     }
   ],
-  "references": [],
   "publications": [
     {
       "name": "Turbulence in Core-Collapse Supernovae",
@@ -191,9 +193,5 @@
       "website": "",
       "summary": "Study of magnetic field dynamics in core-collapse supernovae."
     }
-  ],
-  "presentations": [],
-  "teaching": [],
-  "portfolio": [],
-  "certificates": []
+  ]
 }

@@ -16,13 +16,13 @@ My doctoral research investigates the magnetohydrodynamics of 3D core-collapse s
 ### Key Research Areas
 
 **Turbulence in Supernovae:**
-Understanding the role of turbulent convection and instabilities in driving supernova explosions. My simulations reveal how turbulent energy cascades affect the shock dynamics and explosion energetics.
+Understanding the role of turbulent convection and instabilities in driving supernova explosions.
 
 **Magnetic Field Evolution:**
-Investigating how magnetic fields are amplified and evolve during core collapse. This includes studying the interplay between magnetic fields and vorticity, and how these dynamics affect the explosion mechanism.
+Investigating how magnetic fields are amplified and evolve during core collapse, including the interplay between magnetic fields and vorticity.
 
 **Numerical Methods:**
-Developing and adapting numerical solvers for nonlinear PDEs with constraint-preserving methods. This includes enforcing magnetic field divergence-free boundary conditions (∇·B = 0) on 3D Cartesian grids.
+Developing and adapting numerical solvers for nonlinear PDEs with constraint-preserving methods, including enforcing magnetic field divergence-free boundary conditions (∇·B = 0) on 3D Cartesian grids.
 
 ### Technical Approach
 
@@ -36,49 +36,22 @@ Developing and adapting numerical solvers for nonlinear PDEs with constraint-pre
 - Large-scale data visualization
 - Statistical analysis of turbulent flows
 
-**Numerical Techniques:**
-- Constraint-preserving methods for MHD
-- High-order finite volume schemes
-- Adaptive mesh refinement
-
 ## Technical Skills
 
-**Programming Languages:**
-- Python (NumPy, SciPy, mpi4py)
-- FORTRAN
-- C++
-- MATLAB
-- CUDA
-- Bash
+**Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash
 
-**HPC & Parallel Computing:**
-- MPI (Message Passing Interface)
-- OpenMP
-- OpenACC
-- Distributed computing optimization
+**HPC & Parallel Computing:** MPI, OpenMP, OpenACC, distributed computing
 
-**Scientific Computing:**
-- Numerical methods for PDEs/ODEs
-- Vector calculus and tensor analysis
-- Statistical analysis
-- Data visualization
+**Scientific Computing:** Numerical methods, PDEs/ODEs, data visualization, statistical analysis
 
-**Tools:**
-- Docker
-- Git version control
-- VS Code
-- Linux systems
+**Tools:** Docker, Git, Linux, VS Code
 
 ## Publications
 
 - **Calvert, D.**, et al. (2025). "Turbulence in Core-Collapse Supernovae", *Astrophysical Journal*
 - **Calvert, D.**, et al. (2025). "The Interplay of Magnetic Fields and Vorticity in Core-Collapse Supernovae", *Astrophysical Journal* (In prep)
 
-## Education
+## Dissertation
 
-**Ph.D. in Astrophysics** (December 2025)  
-UC Berkeley & North Carolina State University  
-*Dissertation: Magnetohydrodynamics of 3D Core-Collapse Supernovae*
-
-**B.S. in Physics with Honors & Applied Mathematics** (May 2018)  
-North Carolina State University
+**Magnetohydrodynamics of 3D Core-Collapse Supernovae**  
+Ph.D. Dissertation, UC Berkeley & North Carolina State University (December 2025)

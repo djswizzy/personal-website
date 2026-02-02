@@ -19,7 +19,6 @@ As a software engineer, I contribute to:
 - Developing complete games for the Kywy platform
 - Creating custom rotation algorithms for sprite rendering
 - Building asset-generation scripts in C++
-- Optimizing code for embedded hardware constraints
 
 ---
 
@@ -33,7 +32,6 @@ I designed, built, tested, and delivered a complete LabView application:
 - Hardware control for spectrometer interfacing
 - Real-time data acquisition from measurement devices
 - Concentration interpolation algorithms for chemical analysis
-- Full end-to-end solution delivery
 
 ---
 
@@ -58,27 +56,15 @@ Insightsoftware provides enterprise performance management and financial reporti
 
 - Planned and executed data migrations for multiple acquired companies
 - Leveraged SQL and SOQL to perform data migrations into Salesforce
-- Managed projects on short timescales with multiple stakeholders
 
 ---
 
 ## North Carolina State University - Physics IT (2015 - 2018)
 
-The Physics Department at NC State University, where I began my career in IT.
+The Physics Department at NC State University.
 
 ### My Role: IT Systems Administrator
 
-- Co-managed IT operations for the Physics Department as one of two team members
-- Implemented test environments in Docker
+- Co-managed IT operations for the Physics Department
+- Implemented Docker-based test environments
 - Gained fluency in Linux systems administration
-- Supported faculty, staff, and students with technical needs
-
----
-
-# Skills & Expertise
-
-- High-performance computing and parallel programming
-- Scientific software development
-- Data migration and systems integration
-- Embedded systems and game development
-- Hardware-software integration

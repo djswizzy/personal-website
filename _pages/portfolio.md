@@ -24,10 +24,10 @@ author_profile: true
 High-fidelity 3D magnetohydrodynamic simulations of core-collapse supernovae on distributed HPC systems.
 
 **Technical Highlights:**
-- **MHD Simulation:** High-fidelity FORTRAN code for 3D supernova modeling
-- **Parallel Computing:** MPI-based distributed computing on HPC clusters
-- **Data Analysis:** Python scripts for large-scale data analysis and visualization
-- **Numerical Methods:** Constraint-preserving solvers for divergence-free magnetic fields
+- High-fidelity MHD FORTRAN simulation code
+- MPI-based distributed computing on HPC clusters
+- Python analysis pipelines for large-scale data
+- Constraint-preserving numerical methods
 
 **Technologies:** FORTRAN, Python, MPI, OpenMP, NumPy, SciPy
 
@@ -40,12 +40,11 @@ High-fidelity 3D magnetohydrodynamic simulations of core-collapse supernovae on 
 Contributing to Kywy, a handheld "low-code" educational coding device.
 
 **Technical Highlights:**
-- **Game Development:** Complete games for educational hardware
-- **Graphics Programming:** Custom rotation algorithms for sprite rendering
-- **Asset Pipeline:** Asset-generation scripts in C++
-- **Embedded Systems:** Development for resource-constrained hardware
+- Complete games for educational hardware
+- Custom rotation algorithms for sprite rendering
+- Asset-generation scripts in C++
 
-**Technologies:** C++, Embedded Systems, Graphics Programming
+**Technologies:** C++, Embedded Systems, Git
 
 ---
 
@@ -55,28 +54,11 @@ Contributing to Kywy, a handheld "low-code" educational coding device.
 Custom LabView application for Kondra Chemical to measure chemical concentration in water samples.
 
 **Technical Highlights:**
-- **Hardware Control:** Interfacing with spectrometer hardware
-- **Data Acquisition:** Real-time spectrometer data collection
-- **Signal Processing:** Concentration interpolation from spectral data
-- **Full Delivery:** Design, build, test, and deployment
+- Hardware control for spectrometer interfacing
+- Real-time data acquisition
+- Concentration interpolation from spectral data
 
 **Technologies:** LabView, Hardware Control, Data Acquisition
-
----
-
-## Data Migration & CRM Systems
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white)](https://www.salesforce.com/)
-
-Enterprise data migration projects for acquired companies at Insightsoftware.
-
-**Technical Highlights:**
-- **Data Migration:** Planning and execution on short timescales
-- **SQL/SOQL:** Complex queries for data transformation
-- **CRM Integration:** Salesforce data migrations
-- **Project Management:** Multiple concurrent migration projects
-
-**Technologies:** SQL, SOQL, Salesforce, Data Migration
 
 ---
 
@@ -84,6 +66,5 @@ Enterprise data migration projects for acquired companies at Insightsoftware.
 
 **Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash  
 **HPC & Parallel Computing:** MPI, OpenMP, OpenACC, distributed computing  
-**Scientific Computing:** Numerical methods, PDEs/ODEs, data visualization, statistical analysis  
-**Tools & Platforms:** Docker, Git, Linux, VS Code, LabView, Autodesk Fusion  
-**Domain Expertise:** Plasma physics, MHD simulations, multiphysics modeling
+**Scientific Computing:** Numerical methods, data visualization, statistical analysis  
+**Tools & Platforms:** Docker, Git, Linux, VS Code, LabView, Autodesk Fusion
