@@ -47,6 +47,40 @@ Work Experience
 * Co-managed IT operations for the Physics Department at NC State University as one of two team members
 * Implemented test environments in Docker and gained fluency in Linux
 
+## Leadership
+
+### Mentoring
+
+- Mentored an undergraduate researcher on an original project in the [N3AS program](https://n3as.berkeley.edu/) at UC Berkeley. Investigated the effects of changing the beta decay rates of nuclei on the nucleosynthetic yields of a neutron star merger simulation.
+- Trained several junior graduate students on FORTRAN, Python, and HPC environments.
+
+### Teaching
+
+- **Tutoring**: Privately tutored high school and undergraduate students in physics and math for 8 years.
+- **Teaching**: Taught undergraduate courses in electromagnetism and astronomy.
+
+### Community
+
+- **Graduate Physics Student Association (GPSA)**: President for 3 years
+- **Graduate Research Symposium Planning Committee**: Founding member
+- **DEI Committee**: Founding member, served for 3 years
+
+
+## Science Communication
+
+### Public Talks
+
+- **Astronomy on Tap** —  Oakland, CA 
+- **Astronomy on Tap** —  Durham, NC
+- **Astronomy Days** - Science Museum, Raleigh, NC
+
+### Outreach
+
+- **Raleigh Astronomy Club**: Led public telescope observations and taught members of the public about astronomy.
+- **Local Middle School Astronomy Outreach**: Attended local middle schools in Raleigh, NC to teach students about solar activity and sunspots, as well as show them a live demonstration of sunspots with a solar-filtered telescope.
+
+
+
 Skills
 ======
 

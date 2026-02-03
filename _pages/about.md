@@ -7,17 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational astrophysicist who recently completed my Ph.D. from North Carolina State University, and I am currently a visiting scholar at UC Berkeley. I specialize in magnetohydrodynamic (MHD) simulations of core-collapse supernovae. My research explores the role of turbulent plasma flow in supernova evolution using high-fidelity 3D simulations on distributed HPC systems.
+I am a computational astrophysicist who recently completed my Ph.D. from North Carolina State University and am currently a visiting scholar at UC Berkeley. I specialize in multiphysics modeling, high-performance computing, software development, and large data analysis, with experience in software engineering, systems administration, and machine learning.
 
 ## Research Focus
 
-My dissertation research investigates the magnetohydrodynamics of 3D core-collapse supernovae. Through advanced numerical simulations, I study how magnetic fields and turbulent plasma dynamics influence the explosion mechanism and evolution of massive stars at the end of their lives.
+My dissertation research investigates the magnetohydrodynamics (MHD) of 3D core-collapse supernovae. Through numerical simulations, I study how magnetic fields and turbulent plasma dynamics influence the explosion mechanism and evolution of massive stars at the end of their lives.
 
 **Key Research Areas:**
 - Magnetohydrodynamics (MHD) and plasma dynamics
 - Core-collapse supernova simulations
 - Turbulence in astrophysical flows
 - High-performance computing and numerical methods
+- Quantum neutrino flavor oscillations
 
 ## Technical Skills
 
@@ -37,48 +38,16 @@ Beyond academia, I have experience in software engineering and systems administr
 - **Business Systems Analyst** at Insightsoftware, building and administrating business software instances (Salesforce, Netsuite, Dell Boomi)
 - **IT Systems Administrator** at NC State Physics Department
 
-## Leadership
-
-### Mentoring & Teaching
-
-[Add a short 2–4 sentence overview of your mentoring style and the outcomes you care about.]
-
-- **Undergraduate mentoring**: [Who you mentored, topics (e.g., MHD/CCSNe, Python/HPC), and what they produced (posters, reports, code, etc.).]
-- **Project leadership**: [Examples of scoping work, setting milestones, code reviews, onboarding, documentation, and technical guidance.]
-- **Community**: [Any lab/service roles, student orgs, outreach, or peer mentoring.]
-
-## Science Communication
-
-[Add 2–4 sentences about the audiences you speak to and the topics you enjoy presenting.]
-
-### Public Talks
-
-- **[Talk title]** — [Venue/series], [City] ([Month YYYY])  
-  [Optional: link to slides/video]
-- **[Talk title]** — [Venue/series], [City] ([Month YYYY])  
-  [Optional: link to slides/video]
-
-Astronomy on tap 2x
-### Outreach & Media (Optional)
-
-- **[Activity]**: [Podcast/interview/article/outreach event + 1 sentence description.]
-Raleigh astronomy club
-
 ## Education
 
-**Ph.D., Computational Astrophysics** (Dec 2025) - North Carolina State University/UC Berkeley
-*Dissertation: Magnetohydrodynamics of 3D Core-Collapse Supernovae* 
-
-**B.S., Physics** (May 2018) - North Carolina State University
-
+**Ph.D., Computational Astrophysics** (Dec 2025) - North Carolina State University/UC Berkeley  
+**B.S., Physics** (May 2018) - North Carolina State University  
 **B.S., Applied Mathematics** (May 2018) - North Carolina State University
 
-
-## Recent Publications
+## Recent Publication
 
 ### [Turbulence in Core-collapse Supernovae](https://doi.org/10.3847/1538-4357/ae1475)
 
 **Authors**: <ins>**David Calvert**</ins>, Michael Redle, Bibek Gautam, Charles J. Stapleford, Carla Fröhlich, James P. Kneller, and Matthias Liebendorfer
-
 *The Astrophysical Journal*, Volume 995, Number 1 (2025)
 
