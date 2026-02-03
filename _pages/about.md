@@ -23,7 +23,6 @@ My dissertation research investigates the magnetohydrodynamics of 3D core-collap
 
 **Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash  
 **HPC & Parallel Computing:** MPI, OpenMP, OpenACC, SLURM, distributed computing, GPU computing  
-**Data & File Formats:** HDF5, NetCDF, CSV/TSV, JSON  
 **Scientific Computing:** NumPy, SciPy, mpi4py, numerical methods, PDEs/ODEs, large-scale data analysis, statistical analysis  
 **Performance & Debugging:** profiling/optimization, vectorization, memory/performance tuning, reproducibility  
 **Software Engineering:** Git, CI/CD, unit testing, documentation, code review  
@@ -34,9 +33,36 @@ My dissertation research investigates the magnetohydrodynamics of 3D core-collap
 Beyond academia, I have experience in software engineering and systems administration:
 
 - **Software Engineer** at KOINSLOT Inc., developing educational coding hardware
-- **App Developer** at Kondra Chemical, building LabView applications for chemical analysis
-- **Business Systems Analyst** at Insightsoftware, executing data migrations
+- **App Developer** at Kondra Chemical, building a full LabView application for chemical analysis and hardware control
+- **Business Systems Analyst** at Insightsoftware, building and administrating business software instances (Salesforce, Netsuite, Dell Boomi)
 - **IT Systems Administrator** at NC State Physics Department
+
+## Leadership
+
+### Mentoring & Teaching
+
+[Add a short 2–4 sentence overview of your mentoring style and the outcomes you care about.]
+
+- **Undergraduate mentoring**: [Who you mentored, topics (e.g., MHD/CCSNe, Python/HPC), and what they produced (posters, reports, code, etc.).]
+- **Project leadership**: [Examples of scoping work, setting milestones, code reviews, onboarding, documentation, and technical guidance.]
+- **Community**: [Any lab/service roles, student orgs, outreach, or peer mentoring.]
+
+## Science Communication
+
+[Add 2–4 sentences about the audiences you speak to and the topics you enjoy presenting.]
+
+### Public Talks
+
+- **[Talk title]** — [Venue/series], [City] ([Month YYYY])  
+  [Optional: link to slides/video]
+- **[Talk title]** — [Venue/series], [City] ([Month YYYY])  
+  [Optional: link to slides/video]
+
+Astronomy on tap 2x
+### Outreach & Media (Optional)
+
+- **[Activity]**: [Podcast/interview/article/outreach event + 1 sentence description.]
+Raleigh astronomy club
 
 ## Education
 

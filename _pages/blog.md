@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <div class="blog-content">
-  <p>Welcome to my blog where I share insights, research findings, and thoughts on biophysics and cellular mechanics.</p>
+  <p>Welcome to my blog where I share insights, research findings, and thoughts on astrophysics and the world in general.</p>
 
   {% if site.posts.size > 0 %}
     <!-- Recent Posts Section -->
