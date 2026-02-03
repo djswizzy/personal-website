@@ -111,4 +111,5 @@ Skills
 Publications
 ======
 * **Calvert, D.**, et al. (2025). "Turbulence in Core-Collapse Supernovae", *Astrophysical Journal*
-* **Calvert, D.**, et al. (2025). "The Interplay of Magnetic Fields and Vorticity in Core-Collapse Supernovae", *Astrophysical Journal* (In prep)
+* **Calvert, D.**, et al. (2026). "The Interplay of Magnetic Fields and Vorticity in Core-Collapse Supernovae", *Astrophysical Journal* (In prep)
+* **Calvert, D.**, et al. (2026). "Investigating The Relationship Between Stellar Structure And Core-collapse Supernovae Outcomes", (In prep)

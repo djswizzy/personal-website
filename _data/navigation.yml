@@ -17,6 +17,9 @@ main:
   - title: "Publications"
     url: /publications-auto/
     
+  - title: "Gallery"
+    url: /gallery/
+    
   - title: "Companies"
     url: /companies/
     

@@ -22,7 +22,7 @@ My dissertation research investigates the magnetohydrodynamics (MHD) of 3D core-
 
 ## Technical Skills
 
-**Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash  
+**Programming:** Python, FORTRAN, C++, MATLAB, CUDA, Bash
 **HPC & Parallel Computing:** MPI, OpenMP, OpenACC, SLURM, distributed computing, GPU computing  
 **Scientific Computing:** NumPy, SciPy, mpi4py, numerical methods, PDEs/ODEs, large-scale data analysis, statistical analysis  
 **Performance & Debugging:** profiling/optimization, vectorization, memory/performance tuning, reproducibility  

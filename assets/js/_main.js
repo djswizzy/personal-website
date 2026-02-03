@@ -3,10 +3,10 @@
    ========================================================================== */
 
 $(document).ready(function () {
-  // detect OS/browser preference
+  // detect OS/browser preference (default to dark if no preference)
   const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches
     ? 'dark'
-    : 'light';
+    : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
 
   // Set the theme on page load or when explicitly called
   var setTheme = function (theme) {

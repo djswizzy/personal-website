@@ -29,6 +29,16 @@ Study of how magnetic fields and vorticity dynamics influence the explosion mech
 
 ---
 
+### Investigating The Relationship Between Stellar Structure And Core-collapse Supernovae Outcomes
+
+**Calvert, D.**, et al.
+
+(In preparation, 2026)
+
+[Add description of the research and findings.]
+
+---
+
 ## Dissertation
 
 **Magnetohydrodynamics of 3D Core-Collapse Supernovae**
