@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational astrophysicist completing my Ph.D. at UC Berkeley and North Carolina State University, specializing in magnetohydrodynamic (MHD) simulations of core-collapse supernovae. My research explores the role of turbulent plasma flow in supernova evolution using high-fidelity 3D simulations on distributed HPC systems.
+I am a computational astrophysicist who recently completed my Ph.D. from North Carolina State University, and I am currently a visiting scholar at UC Berkeley. I specialize in magnetohydrodynamic (MHD) simulations of core-collapse supernovae. My research explores the role of turbulent plasma flow in supernova evolution using high-fidelity 3D simulations on distributed HPC systems.
 
 ## Research Focus
 
@@ -22,9 +22,12 @@ My dissertation research investigates the magnetohydrodynamics of 3D core-collap
 ## Technical Skills
 
 **Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash  
-**HPC & Parallel Computing:** MPI, OpenMP, OpenACC, distributed computing  
-**Tools:** Docker, Git, VS Code, LabView, Autodesk Fusion  
-**Scientific Computing:** NumPy, SciPy, mpi4py, large data analytics, statistical analysis
+**HPC & Parallel Computing:** MPI, OpenMP, OpenACC, SLURM, distributed computing, GPU computing  
+**Data & File Formats:** HDF5, NetCDF, CSV/TSV, JSON  
+**Scientific Computing:** NumPy, SciPy, mpi4py, numerical methods, PDEs/ODEs, large-scale data analysis, statistical analysis  
+**Performance & Debugging:** profiling/optimization, vectorization, memory/performance tuning, reproducibility  
+**Software Engineering:** Git, CI/CD, unit testing, documentation, code review  
+**Tools:** Docker, Linux, VS Code, LabView, Autodesk Fusion
 
 ## Professional Experience
 
@@ -37,12 +40,19 @@ Beyond academia, I have experience in software engineering and systems administr
 
 ## Education
 
-**Ph.D. in Astrophysics** (December 2025) - UC Berkeley & North Carolina State University  
-*Dissertation: Magnetohydrodynamics of 3D Core-Collapse Supernovae*
+**Ph.D., Computational Astrophysics** (Dec 2025) - North Carolina State University/UC Berkeley
+*Dissertation: Magnetohydrodynamics of 3D Core-Collapse Supernovae* 
 
-**B.S. in Physics with Honors & Applied Mathematics** (May 2018) - North Carolina State University
+**B.S., Physics** (May 2018) - North Carolina State University
+
+**B.S., Applied Mathematics** (May 2018) - North Carolina State University
+
 
 ## Recent Publications
 
-- **Calvert, D.**, et al. (2025). "Turbulence in Core-Collapse Supernovae", *Astrophysical Journal*
-- **Calvert, D.**, et al. (2025). "The Interplay of Magnetic Fields and Vorticity in Core-Collapse Supernovae", *Astrophysical Journal* (In prep)
+### [Turbulence in Core-collapse Supernovae](https://doi.org/10.3847/1538-4357/ae1475)
+
+**Authors**: <ins>**David Calvert**</ins>, Michael Redle, Bibek Gautam, Charles J. Stapleford, Carla Fröhlich, James P. Kneller, and Matthias Liebendorfer
+
+*The Astrophysical Journal*, Volume 995, Number 1 (2025)
+

@@ -23,7 +23,7 @@ Investigation of turbulent plasma flow in supernova evolution using high-fidelit
 
 **Calvert, D.**, et al.
 
-*Astrophysical Journal* (In preparation, 2025)
+*Astrophysical Journal* (In preparation, 2026)
 
 Study of how magnetic fields and vorticity dynamics influence the explosion mechanism and evolution of core-collapse supernovae.
 
