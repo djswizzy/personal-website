@@ -14,7 +14,7 @@ PDF Version
 Education
 ======
 * **Ph.D. in Astrophysics** - UC Berkeley & North Carolina State University, December 2025
-  * Dissertation: Magnetohydrodynamics of 3D Core-Collapse Supernovae
+  * Dissertation: A study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae
 * **B.S. in Physics with Honors & Applied Mathematics** - North Carolina State University, May 2018
 
 Work Experience

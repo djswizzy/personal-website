@@ -7,15 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
-## Publications
+## Dissertation
 
-### Turbulence in Core-Collapse Supernovae
+**A study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae**
+
+Ph.D. Dissertation, UC Berkeley & North Carolina State University (December 2025)
+
+This dissertation explores the role of magnetic fields and stellar evolution on the explosion mechanism of massive stars, using state-of-the-art 3D MHD simulations and 1D parameter studies.
+
+---
+
+## [Turbulence in Core-Collapse Supernovae](https://doi.org/10.3847/1538-4357/ae1475)
 
 **Calvert, D.**, et al.
 
 *Astrophysical Journal* (2025)
 
-Investigation of turbulent plasma flow in supernova evolution using high-fidelity 3D magnetohydrodynamic simulations on distributed HPC systems.
+Investigation of turbulent plasma flow in supernova evolution using high-fidelity 3D magnetohydrodynamic simulations on distributed HPC systems.  
 
 ---
 
@@ -35,14 +43,8 @@ Study of how magnetic fields and vorticity dynamics influence the explosion mech
 
 (In preparation, 2026)
 
-[Add description of the research and findings.]
+Parameter study investigating how poorly constrained stellar evolution physics, including wind efficiency and convective overshooting treatments, impact supernova explosion properties and remnant masses using MESA and AGILE simulations.
 
 ---
 
-## Dissertation
 
-**Magnetohydrodynamics of 3D Core-Collapse Supernovae**
-
-Ph.D. Dissertation, UC Berkeley & North Carolina State University (December 2025)
-
-This dissertation explores the role of magnetic fields and turbulent plasma dynamics in the explosion mechanism of massive stars, using state-of-the-art 3D MHD simulations.
