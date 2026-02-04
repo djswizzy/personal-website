@@ -7,11 +7,13 @@ research_gallery:
   - image_path: entropy.png
     alt: "Entropy visualization from supernova simulation"
     title: "Entropy Distribution"
-  # Add more images below:
-  # - image_path: image2.png
-  #   alt: "Description of image 2"
-  #   title: "Optional title"
-  #   url: "optional-link"
+  - image_path: image2.png
+  - image_path: image3.png
+  - image_path: image4.png
+  - image_path: Picture1.png
+  - image_path: image5.png
+
+  
 ---
 
 {% include base_path %}
@@ -20,7 +22,7 @@ This gallery showcases visualizations and results from my research on core-colla
 
 {% include gallery id="research_gallery" caption="Research visualizations from MHD supernova simulations" %}
 
-## How to Add Images
+<!-- ## How to Add Images
 
 To add images to this gallery, edit the frontmatter of this file and add entries to the `research_gallery` array:
 
@@ -35,5 +37,5 @@ research_gallery:
     title: "Optional title for image 2"
 ```
 
-Place your images in the `/images/` directory and reference them by filename in the `image_path` field.
+Place your images in the `/images/` directory and reference them by filename in the `image_path` field. -->
 
