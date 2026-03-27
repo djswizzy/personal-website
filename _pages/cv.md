@@ -51,7 +51,7 @@ Work Experience
 
 ### Mentoring
 
-- Mentored an undergraduate researcher on an original project in the [N3AS program](https://n3as.berkeley.edu/) at UC Berkeley. Investigated the effects of changing the beta decay rates of nuclei on the nucleosynthetic yields of a neutron star merger simulation.
+- Mentored an undergraduate researcher on an original project in the [N3AS program](https://n3as.berkeley.edu/) at UC Berkeley. Investigated the effects of changing the beta decay rates of nuclei on the nucleosynthetic yields of a neutron star merger simulation. ([Poster]({{ base_path }}/files/N3AS%20Poster.pdf.pdf))
 - Trained several junior graduate students on FORTRAN, Python, and HPC environments.
 
 ### Teaching
