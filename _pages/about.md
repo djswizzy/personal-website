@@ -11,7 +11,7 @@ I am a computational astrophysicist who recently completed my Ph.D. from North C
 
 ## Research Focus
 
-My dissertation research investigates the magnetohydrodynamics (MHD) of 3D core-collapse supernovae. Through numerical simulations, I study how magnetic fields and turbulent plasma dynamics influence the explosion mechanism and evolution of massive stars at the end of their lives.
+My [dissertation](https://www.lib.ncsu.edu/resolver/1840.20/46523) ([download PDF](/files/etd.pdf)) investigates the magnetohydrodynamics (MHD) of 3D core-collapse supernovae. Through numerical simulations, I study how magnetic fields and turbulent plasma dynamics influence the explosion mechanism and evolution of massive stars at the end of their lives.
 
 **Key Research Areas:**
 - Magnetohydrodynamics (MHD) and plasma dynamics
@@ -40,7 +40,7 @@ Beyond academia, I have experience in software engineering and systems administr
 
 ## Education
 
-**Ph.D., Computational Astrophysics** (Dec 2025) - North Carolina State University/UC Berkeley  
+**Ph.D., Computational Astrophysics** (Dec 2025) - North Carolina State University/UC Berkeley - [thesis](https://www.lib.ncsu.edu/resolver/1840.20/46523), [download PDF](/files/etd.pdf)  
 **B.S., Physics** (May 2018) - North Carolina State University  
 **B.S., Applied Mathematics** (May 2018) - North Carolina State University
 
