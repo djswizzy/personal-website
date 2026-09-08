@@ -16,5 +16,4 @@ package-lock.json
 vendor/
 .bundle/
 
-Resume.pdf
 MIGRATION_NOTES.md
