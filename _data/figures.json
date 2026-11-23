@@ -4,41 +4,53 @@
     "preview": "previews/image2.jpg",
     "title": "Field orientation over time",
     "alt": "Four maps of the angle between magnetic field and vorticity at 64.0, 133.2, 147.0, and 187.7 milliseconds.",
-    "caption": "Color gives the local angle in degrees. The range of orientations persists as the shocked region grows."
+    "caption": "Color gives the local angle in degrees. The range of orientations persists as the shocked region grows.",
+    "width": 1100,
+    "height": 300
   },
   {
     "original": "image4.png",
     "preview": "previews/image4.jpg",
     "title": "Where the flow rotates",
     "alt": "Bright filaments form a ring around a dark center in a map of density-weighted enstrophy.",
-    "caption": "Enstrophy measures the squared strength of local fluid rotation."
+    "caption": "Enstrophy measures the squared strength of local fluid rotation.",
+    "width": 1100,
+    "height": 916
   },
   {
     "original": "image5.png",
     "preview": "previews/image5.jpg",
     "title": "Comparing turbulent energy",
     "alt": "Four rows of cross-sections compare turbulent energy per unit mass in the Control, T10, and T12 models.",
-    "caption": "All three columns use the same logarithmic energy scale, so their spatial patterns can be compared directly."
+    "caption": "All three columns use the same logarithmic energy scale, so their spatial patterns can be compared directly.",
+    "width": 1100,
+    "height": 1085
   },
   {
     "original": "image3.png",
     "preview": "previews/image3.jpg",
     "title": "Terms in the energy equation",
     "alt": "Three signed maps show the gravity, magnetic, and thermal-pressure terms.",
-    "caption": "The shared red–blue scale shows where each term is positive or negative."
+    "caption": "The shared red–blue scale shows where each term is positive or negative.",
+    "width": 1100,
+    "height": 353
   },
   {
     "original": "entropy.png",
     "preview": "entropy.png",
     "title": "Entropy behind the shock",
     "alt": "Two irregular lobes surround a dark center in the entropy slice at 216.1 milliseconds.",
-    "caption": "The slice resolves structure inside the expanding lobes."
+    "caption": "The slice resolves structure inside the expanding lobes.",
+    "width": 427,
+    "height": 427
   },
   {
     "original": "Picture1.png",
     "preview": "previews/Picture1.jpg",
     "title": "Structure in the simulated flow",
     "alt": "Red and yellow lobes fan out from a central cavity, with tightly curled edges on both sides.",
-    "caption": "A close view of the irregular boundary in a simulated core collapse."
+    "caption": "A close view of the irregular boundary in a simulated core collapse.",
+    "width": 1066,
+    "height": 1100
   }
 ]

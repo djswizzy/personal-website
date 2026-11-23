@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include seo.html %}
+  <script src="{{ '/assets/editorial/appearance.js' | relative_url }}"></script>
   <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/editorial/theme.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/editorial/portfolio.css' | relative_url }}">
@@ -19,6 +20,13 @@
           <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {% endfor %}
       </nav>
+      <label class="appearance-control" hidden>Theme
+        <select id="appearance">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
     </header>
     <main id="content" tabindex="-1">
       {% if page.url == '/' %}{{ content }}{% else %}

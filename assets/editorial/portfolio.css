@@ -50,3 +50,20 @@ a:focus-visible { outline: 3px solid #006481; outline-offset: 4px; }
   #banner { align-items: stretch; }
   #banner figure { width: 100%; align-self: center; }
 }
+
+.appearance-control:not([hidden]) { display: inline-flex; align-items: center; gap: .5rem; margin: 0; font-size: .9rem; }
+#appearance { appearance: auto; background: transparent; color: inherit; width: auto; height: 2rem; padding: 0 .35rem; border: 1px solid currentColor; }
+#appearance:focus-visible { outline: 3px solid #1781aa; outline-offset: 3px; }
+@media (max-width:736px) { .appearance-control { margin-top: .75rem !important; } }
+
+html[data-appearance="dark"] { color-scheme: dark; background: #10191f; }
+[data-appearance="dark"] body { background: #10191f; color: #d7e2e7; }
+[data-appearance="dark"] :is(h1,h2,h3,h4,h5,h6,strong,b,label),
+[data-appearance="dark"] #header :is(.logo,nav a),
+[data-appearance="dark"] .science-figure figcaption strong { color: #eff5f7; }
+[data-appearance="dark"] :is(.reading,.selection,.credits) a { color: #9ddce9; }
+[data-appearance="dark"] :is(.reading,.selection,.credits) a:hover { color: #ffbaa7 !important; }
+[data-appearance="dark"] .image-slot { background: #1b2a33; }
+[data-appearance="dark"] .credits { border-color: #465b66; }
+[data-appearance="dark"] a:focus-visible { outline-color: #ffd2bc; }
+.science-figure img { width: auto; max-width: 100%; object-fit: contain; }
