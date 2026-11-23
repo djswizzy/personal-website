@@ -39,7 +39,7 @@ I extended a C++ neutrino oscillation code and coupled it to a one-dimensional c
 
 ## Spectrometer control
 
-For Kondra Chemical, I built a LabVIEW application that controls a spectrometer, acquires spectra in real time, and interpolates chemical concentrations in water samples.
+For Kondra Chemical, I developed the entire spectrometer control application from scratch in LabVIEW. I built the graphical user interface, sample motor control, spectrometer control and data acquisition, and chemical composition interpolation. The application brings instrument operation and sample analysis together in one interface.
 
 <aside class="image-slot" aria-label="Project image placeholder"><strong>Instrument setup</strong><span>Photo placeholder · spectrometer and sample cell</span></aside>
 
@@ -51,3 +51,18 @@ I wrote games, sprite rotation routines, and C++ asset-generation tools for KOIN
   <img loading="lazy" src="{{ '/images/projects/kywy-handheld.png' | relative_url }}" width="430" height="267" alt="Front and rear views of the green Kywy handheld, showing its screen, controls, and enclosure.">
   <figcaption>Kywy handheld · Product render from <a href="https://kywy.io/">KYWY / KOINSLOT</a>.</figcaption>
 </figure>
+
+
+## Personal projects
+
+### Wedding phone guestbook
+
+I built a phone guestbook for my wedding, putting my soldering and electronics skills into practice.
+
+<aside class="image-slot" aria-label="Project image placeholder"><strong>Wedding phone guestbook</strong><span>Photo placeholder · finished phone and internal electronics</span></aside>
+
+### Home server
+
+I run a home server using Docker and related system administration software. It gives me a place to apply my skills in containerized services and server administration.
+
+<aside class="image-slot" aria-label="Project image placeholder"><strong>Home server</strong><span>Image placeholder · server setup or service dashboard</span></aside>
