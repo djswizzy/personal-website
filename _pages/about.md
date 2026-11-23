@@ -12,8 +12,8 @@ redirect_from:
 <section id="banner" class="major">
   <div class="inner">
     <div class="identity"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="David Calvert" width="80" height="80"><p>David Calvert, PhD<br>AI/ML Scientist at Atomionics</p></div>
-    <header class="major"><h1>AI for what lies beneath the surface.</h1></header>
-    <div class="intro-copy"><p>I use AI and machine learning to predict what lies beneath the ground. My background in computational astrophysics shapes how I model complex systems and interpret their signals.</p><a class="button" href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">My current work</a></div>
+    <header class="major"><h1>Exploring complex systems through math and computation.</h1></header>
+    <div class="intro-copy"><p>I’m interested in how physical systems work and what we can learn from their data. My work spans astrophysics, numerical simulation, and machine learning—from the dynamics of collapsing stars to what lies beneath the ground.</p><a class="button" href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">My current work</a></div>
     <nav class="profile-links" aria-label="Profiles and documents">
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" class="profile-icon" aria-label="LinkedIn" title="LinkedIn"><span class="link-glyph brand" aria-hidden="true">&#xf0e1;</span><span class="icon-tooltip" aria-hidden="true">LinkedIn</span></a>
       <a href="{{ site.author.orcid }}" class="profile-icon" aria-label="ORCID" title="ORCID"><span class="link-glyph brand" aria-hidden="true">&#xf8d2;</span><span class="icon-tooltip" aria-hidden="true">ORCID</span></a>
