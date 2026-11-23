@@ -118,3 +118,6 @@ figcaption strong { display:block; }
 }
 
 .reading.reading-wide { max-width:1120px; width:calc(100% - 3rem); }
+
+.about-columns { display:grid; grid-template-columns:1fr 1fr; gap:3rem; }
+@media(max-width:736px) { .about-columns { grid-template-columns:1fr; gap:0; } }
