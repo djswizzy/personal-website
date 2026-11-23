@@ -141,3 +141,27 @@ figcaption strong { display:block; }
 
 .tiles article.ai-tile { background-image:url('/images/projects/atomionics-earth.png'); background-position:center 45%; }
 .tiles article.ai-tile:before { background:#422e29; opacity:.72; }
+
+.project-jumps { display:flex; flex-wrap:wrap; gap:8px 24px; margin:0 0 24px; font-size:16px; }
+.project-group { border-top:1px solid var(--line); padding:20px 0; }
+.reading .project-group > h2 { margin:0 0 18px; font-size:22px; color:#e2af8c; }
+.project-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px 32px; }
+.project-card { min-width:0; }
+.project-card h3 { margin:0 0 10px; font-size:22px; line-height:1.3; }
+.project-card p { font-size:16px; line-height:1.6; margin:0 0 12px; }
+.project-card .project-image, .project-card .science-figure { margin:14px 0 0; }
+.project-card img { width:100%; height:160px; max-height:160px; object-fit:contain; }
+.project-card figcaption { font-size:13px; line-height:1.4; margin-top:8px; }
+.project-card .image-slot { margin:12px 0 0; padding:16px; font-size:14px; }
+.project-card details { margin:12px 0; font-size:16px; }
+.project-card summary { cursor:pointer; color:#b9d9ee; margin-bottom:8px; }
+.project-card :is(h3,summary), .project-group > h2 { scroll-margin-top:20px; }
+#ai-ml + .project-grid { grid-template-columns:1fr; }
+#ai-ml + .project-grid .project-card { display:grid; grid-template-columns:1fr 240px; gap:0 28px; }
+#ai-ml + .project-grid .project-image { grid-column:2; grid-row:1 / 3; margin:0; }
+@media(max-width:736px) {
+ .project-grid, #ai-ml + .project-grid .project-card { display:block; }
+ .project-card + .project-card { margin-top:24px; }
+ #ai-ml + .project-grid .project-image { margin-top:14px; }
+}
+#ai-ml + .project-grid .project-card { grid-template-rows:min-content 1fr; align-items:start; }
