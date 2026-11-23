@@ -36,7 +36,7 @@ a:focus-visible { outline: 3px solid #006481; outline-offset: 4px; }
 .reading a:hover, .selection a:hover, .credits a:hover { color: #963d35 !important; }
 #banner a:hover { color: #ffcfb4 !important; }
 #banner .byline { display: flex; gap: 1rem; align-items: center; margin-bottom: 1.6rem; }
-#banner .monogram { display: grid; place-items: center; flex: 0 0 3.5rem; height: 3.5rem; border: 1px solid #aac5ce; border-radius: 50%; color: #fff; font-family: Georgia, serif; font-size: 1.4rem; }
+#banner .byline img { width: 72px; height: 72px; flex: none; border-radius: 50%; object-fit: cover; }
 #banner .byline p { margin: 0; color: #ffd2bc; }
 #banner .byline strong { color: white; }
 #banner figure img { border-radius: 0; }
