@@ -10,7 +10,7 @@ redirect_from:
 
 <section id="banner">
   <div class="content">
-    <div class="byline"><img src="{{ '/images/previews/david-calvert.jpg' | relative_url }}" width="72" height="72" alt="Portrait of David Calvert"><p><strong>David Calvert, PhD</strong><br>AI/ML Scientist at Atomionics</p></div>
+    <div class="byline"><span class="monogram" aria-hidden="true">DC</span><p><strong>David Calvert, PhD</strong><br>AI/ML Scientist at Atomionics</p></div>
     <h1>Inside a collapsing star</h1>
     <p>I use three-dimensional magnetohydrodynamic simulations to study what happens between the collapse of a massive star’s core and the expansion of its shock wave.</p>
     <a class="button" href="{{ '/research/' | relative_url }}">Explore the research</a>
