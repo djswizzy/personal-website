@@ -165,3 +165,5 @@ figcaption strong { display:block; }
  #ai-ml + .project-grid .project-image { margin-top:14px; }
 }
 #ai-ml + .project-grid .project-card { grid-template-rows:min-content 1fr; align-items:start; }
+.project-card ul { font-size:16px; line-height:1.6; margin:0 0 16px; padding-left:1.2rem; }
+.project-card h4 { margin:16px 0 8px; font-size:17px; }

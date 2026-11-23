@@ -6,7 +6,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-<nav class="project-jumps" aria-label="Project sections"><a href="#ai-ml">AI & machine learning</a><a href="#astrophysics">Astrophysics</a><a href="#engineering">Engineering</a><a href="#personal">Personal projects</a></nav>
+<nav class="project-jumps" aria-label="Project sections"><a href="#ai-ml">AI & machine learning</a><a href="#astrophysics">Astrophysics</a><a href="#engineering">Engineering</a><a href="#personal">Personal projects</a><a href="#talks-mentorship">Talks &amp; Mentorship</a></nav>
 
 <div class="project-directory" markdown="1">
 
@@ -120,11 +120,26 @@ I run an Ubuntu home server hosting Plex, game servers, and OpenClaw. I use Dock
 
 </article>
 
+</div>
+</section>
+
+<section class="project-group" aria-labelledby="talks-mentorship" markdown="1">
+
+## Talks & Mentorship {#talks-mentorship}
+
+<div class="project-grid" markdown="1">
+
 <article class="project-card" markdown="1">
 
-### Science communication and public talks
+### Public talks
 
-I’ve given public astronomy talks at Astronomy on Tap in Oakland, California, and Durham, North Carolina, and at Astronomy Days in Raleigh. With the Raleigh Astronomy Club, I led public telescope observations. I also visited local middle schools to explain solar activity and sunspots and demonstrate observations with a solar-filtered telescope.
+- **Astronomy on Tap** — Oakland, California
+- **Astronomy on Tap** — Durham, North Carolina
+- **Astronomy Days** — Raleigh, North Carolina
+
+#### Outreach
+
+With the Raleigh Astronomy Club, I led public telescope observations. I also visited local middle schools to explain solar activity and sunspots and demonstrate observations with a solar-filtered telescope.
 
 </article>
 
