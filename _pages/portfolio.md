@@ -9,6 +9,11 @@ author_profile: true
 
 At Atomionics, I develop models to predict potential ore locations from raster data. My work includes convolutional neural networks with attention, evaluation of predictive models and a retrieval-based geology assistant, and deployment on Azure.
 
+<figure class="project-image">
+  <img loading="lazy" src="{{ '/images/projects/atomionics-earth.png' | relative_url }}" alt="Illustration of Earth cut away to reveal its internal layers.">
+  <figcaption>Exploring beneath the surface · <a href="https://www.atomionics.com/">Atomionics</a>.</figcaption>
+</figure>
+
 ## Magnetic fields and turbulence
 
 How much does turbulence help a stalled supernova shock expand? I ran three-dimensional magnetohydrodynamic (MHD) simulations on distributed computing systems and tested how the choice of average affects the inferred turbulent flow.

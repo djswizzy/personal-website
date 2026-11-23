@@ -138,3 +138,6 @@ figcaption strong { display:block; }
 .project-image figcaption { font-size:14px; color:#b4c5d7; }
 .tiles article.engineering-tile { background-image:url('/images/projects/kywy-handheld.png'); background-position:center; }
 .tiles article.engineering-tile:before { opacity:.7; }
+
+.tiles article.ai-tile { background-image:url('/images/projects/atomionics-earth.png'); background-position:center 45%; }
+.tiles article.ai-tile:before { background:#422e29; opacity:.72; }
