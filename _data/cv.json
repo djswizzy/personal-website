@@ -4,7 +4,7 @@
     "email": "dcalvert2014@gmail.com",
     "phone": "609-713-7445",
     "website": "https://davidcalvert.dev",
-    "summary": "Ph.D. in computational astrophysics. Skilled in independent software development and 3D modeling with an emphasis on MHD, plasma dynamics, data analytics, C++, Python, MATLAB, and FORTRAN.",
+    "summary": "Computational astrophysicist specializing in magnetohydrodynamics and core-collapse supernova simulations. AI/ML Scientist at Atomionics.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -26,6 +26,10 @@
     ]
   },
   "work": [
+    {
+      "company": "Atomionics",
+      "position": "AI/ML Scientist"
+    },
     {
       "company": "UC Berkeley & NC State University",
       "position": "Supernova Physicist",

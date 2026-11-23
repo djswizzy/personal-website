@@ -41,3 +41,81 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.research-home {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 4vw, 2.5rem);
+}
+
+.research-home__hero,
+.research-home__projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 5vw, 4rem);
+}
+
+.research-home__hero {
+  align-items: center;
+  padding-bottom: clamp(2rem, 6vw, 4rem);
+}
+
+.research-home h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: clamp(2.75rem, 7vw, 5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.research-home__role {
+  margin-top: 0.65rem;
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  font-weight: 600;
+}
+
+.research-home__hero figure {
+  display: block;
+  margin: 0;
+}
+
+.research-home__hero img {
+  display: block;
+  width: 100%;
+  max-width: 427px;
+  height: auto;
+}
+
+.research-home__hero figcaption {
+  font-size: 0.85rem;
+}
+
+.research-home__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.research-home__links a {
+  font-weight: 600;
+}
+
+.research-home__work {
+  border-top: 1px solid currentColor;
+}
+
+.research-home__work h2 {
+  margin-top: 1.5rem;
+}
+
+.research-home__projects h3 {
+  margin: 0 0 0.5rem;
+}
+
+@media (max-width: 42rem) {
+  .research-home__hero,
+  .research-home__projects {
+    grid-template-columns: 1fr;
+  }
+}

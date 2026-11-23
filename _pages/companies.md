@@ -7,7 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-# Professional Experience
+## Atomionics
+
+**AI/ML Scientist** (Present)
 
 ## KOINSLOT Inc. (2024 - Present)
 

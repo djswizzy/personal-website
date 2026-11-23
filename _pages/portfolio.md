@@ -62,9 +62,4 @@ Custom LabView application for Kondra Chemical to measure chemical concentration
 
 ---
 
-# Core Technical Skills
-
-**Programming Languages:** Python, FORTRAN, C++, MATLAB, CUDA, Bash  
-**HPC & Parallel Computing:** MPI, OpenMP, OpenACC, distributed computing  
-**Scientific Computing:** Numerical methods, data visualization, statistical analysis  
-**Tools & Platforms:** Docker, Git, Linux, VS Code, LabView, Autodesk Fusion
+[Explore my broader technical skills]({{ "/cv/#skills" | relative_url }})

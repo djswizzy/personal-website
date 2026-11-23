@@ -20,6 +20,9 @@ Education
 Work Experience
 ======
 
+**AI/ML Scientist** (Present)  
+*Atomionics*
+
 **Supernova Physicist** (2019 - 2025)  
 *UC Berkeley & NC State University* - Berkeley, CA & Raleigh, NC
 * Utilized a high-fidelity MHD FORTRAN 3D supernova code on distributed HPC systems to explore the role of turbulent plasma flow in supernova evolution
@@ -89,7 +92,9 @@ Skills
 * FORTRAN, C++, MATLAB
 * Docker, Git, MPI, OpenMP, OpenACC
 * VS Code, CUDA, Bash, LabView
-* Autodesk Fusion
+* Autodesk Fusion, Jupyter, HDF5, SLURM, LSF
+* SQL, SOQL, Salesforce, NetSuite, Dell Boomi
+* Spectrometer control, signal processing, and data acquisition
 
 **Technical & Scientific**
 * Plasma Physics
