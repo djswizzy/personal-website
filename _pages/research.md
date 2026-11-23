@@ -9,7 +9,14 @@ author_profile: true
 
 How much does turbulence help a stalled supernova shock expand? I ran three-dimensional magnetohydrodynamic (MHD) simulations on distributed computing systems and tested how the choice of average affects the inferred turbulent flow.
 
-My revised Reynolds decomposition gave a smaller estimate of turbulence in the neutrino-heated region behind the shock. In my models, strong toroidal magnetic fields further reduced turbulent motion. [Read the paper](https://doi.org/10.3847/1538-4357/ae1475).
+Our [2025 paper](https://doi.org/10.3847/1538-4357/ae1475) compared ways of separating turbulent motion from the average flow. The choice changed how much kinetic energy we attributed to turbulence.
+
+In our [2026 study](https://doi.org/10.1103/lgc5-tn23), we varied the initial toroidal magnetic field in simulations of 15- and 20-solar-mass stars. The strongly magnetized models had lower turbulent kinetic energy and enstrophy. The size of the energy reduction depended on how we measured turbulence.
+
+<figure class="science-figure">
+  <img loading="lazy" src="{{ '/images/previews/image2.jpg' | relative_url }}" alt="Four slices showing the magnetic field and vorticity at varied angles throughout the expanding flow.">
+  <figcaption>Magnetic field and vorticity stayed close to randomly aligned as the flow evolved. <a href="{{ '/images/image2.png' | relative_url }}">Inspect the full-resolution figure</a></figcaption>
+</figure>
 
 ## Stellar evolution and the remnant
 

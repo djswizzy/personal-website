@@ -7,39 +7,36 @@ author_profile: true
 
 {% include base_path %}
 
-PDF Version
-======
-[Download PDF](/files/Resume.pdf)
+[Download résumé (PDF)]({{ "/files/Resume.pdf" | relative_url }})
 
-Education
-======
-* **Ph.D. in Astrophysics** - UC Berkeley & North Carolina State University, December 2025
+## Education
+* **Ph.D. in Physics**, North Carolina State University. Computational astrophysics research at NC State and UC Berkeley. Defended and completed December 2025. Degree conferred May 2026.
   * Dissertation: A study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae
 * **B.S. in Physics with Honors & Applied Mathematics** - North Carolina State University, May 2018
 
 Earlier education included the North Carolina School of Science and Mathematics (NCSSM) and the Marine Academy of Technology and Environmental Science (MATES).
 
-Work Experience
-======
+## Work Experience
 
 [Detailed experience]({{ "/companies/" | relative_url }})
 
-**AI/ML Scientist** (Present)  
+**AI/ML Scientist** (June 2026–present)<br>
 *Atomionics*
+
+Developed attention-based models for mineral exploration, evaluated an LLM-based geology assistant, and built cloud infrastructure and a client-facing interface.
 
 **Supernova Physicist** (2019 - 2025)  
 *UC Berkeley & NC State University* - Berkeley, CA & Raleigh, NC
-* Utilized a high-fidelity MHD FORTRAN 3D supernova code on distributed HPC systems to explore the role of turbulent plasma flow in supernova evolution
+* Utilized a high-fidelity MHD Fortran 3D supernova code on distributed HPC systems to explore the role of turbulent plasma flow in supernova evolution
 * Developed and implemented Python scripts to perform data analysis and generate plots used in publications
-* Developed expertise in MHD and plasma dynamics through literature review and modeling experience
 * Adapted numerical solvers for nonlinear PDEs with constraint preserving methods to enforce magnetic field divergence-free boundary conditions
 
 **App Developer - Independent Contract** (2025)  
 *Kondra Chemical* - San Francisco, CA
-* Designed, built, tested, and delivered a LabView app for measurement of chemical concentration in water samples
+* Designed, built, tested, and delivered a LabVIEW app for measurement of chemical concentration in water samples
 * Developed hardware control, spectrometer data acquisition, and concentration interpolation modules
 
-**Software Engineer** (2024 - Present)  
+**Software Engineer** (2024–2026)<br>
 *KOINSLOT Inc.* - San Francisco, CA
 * Contributed to Kywy, a handheld "low-code" educational coding device
 * Developed complete games, custom rotation algorithms for sprite rendering, and asset-generation scripts in C++
@@ -58,8 +55,8 @@ Work Experience
 
 ### Mentoring
 
-- Mentored an undergraduate researcher on an original project in the [N3AS program](https://n3as.berkeley.edu/) at UC Berkeley. Investigated the effects of changing the beta decay rates of nuclei on the nucleosynthetic yields of a neutron star merger simulation. ([Poster]({{ base_path }}/files/N3AS%20Poster.pdf.pdf))
-- Trained several junior graduate students on FORTRAN, Python, and HPC environments.
+- Mentored an undergraduate researcher on an original project in the [N3AS program](https://n3as.berkeley.edu/) at UC Berkeley. Investigated the effects of changing the beta decay rates of nuclei on the nucleosynthetic yields of a neutron star merger simulation. ([Poster]({{ base_path }}/files/N3AS%2520Poster.pdf.pdf))
+- Trained several junior graduate students on Fortran, Python, and HPC environments.
 
 ### Teaching
 
@@ -88,13 +85,11 @@ Work Experience
 
 
 
-Skills
-======
+## Skills
 
 [View technical and additional skills]({{ "/skills/" | relative_url }})
 
-Publications
-======
+## Publications
 {% for paper in site.data.cv.publications %}
 * **Calvert, D.**, et al. ({{ paper.releaseDate }}). [{{ paper.name }}]({{ paper.website }}). *{{ paper.publisher }}* **{{ paper.volume }}**, {{ paper.article }}.
 {% endfor %}

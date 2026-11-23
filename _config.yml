@@ -12,7 +12,7 @@ site_theme: "dark"
 title: "David Calvert"
 title_separator: "-"
 name: &name "David Calvert"
-description: &description "Computational Astrophysicist • Ph.D. Candidate • Software Developer"
+description: &description "Computational astrophysicist and AI/ML Scientist at Atomionics. Research in core-collapse supernovae, plasma turbulence, and magnetohydrodynamics."
 url: https://davidcalvert.dev
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "djswizzy/personal-website"
@@ -28,7 +28,7 @@ author:
   pronouns: # example: "she/her"
   bio: "Computational astrophysicist specializing in MHD. AI/ML Scientist at Atomionics."
   location: "San Francisco, CA"
-  employer: "University of California, Berkeley"
+  employer: "Atomionics"
   uri: # URL
   email: "dcalvert2014@gmail.com"
 

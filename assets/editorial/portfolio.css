@@ -27,3 +27,26 @@ body { color: #394852; font-size: 1rem; }
 }
 #banner .profile-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: 1.5rem; }
 #banner .profile-links a { color: #fff; border-bottom-color: #aac5ce; }
+
+.skip-link, .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.skip-link:focus { width: auto; height: auto; clip-path: none; background: white; color: #123; padding: .75rem; z-index: 2; }
+a:focus-visible { outline: 3px solid #006481; outline-offset: 4px; }
+#banner a:focus-visible { outline-color: #ffd7ae; }
+.reading a, .selection a, .credits a { color: #23596a; }
+.reading a:hover, .selection a:hover, .credits a:hover { color: #963d35 !important; }
+#banner a:hover { color: #ffcfb4 !important; }
+#banner .byline { display: flex; gap: 1rem; align-items: center; margin-bottom: 1.6rem; }
+#banner .byline img { border-radius: 50%; object-fit: cover; }
+#banner .byline p { margin: 0; color: #ffd2bc; }
+#banner .byline strong { color: white; }
+#banner figure img { border-radius: 0; }
+.science-figure { margin: 1.5rem 0 3rem; }
+.science-figure img { display: block; max-height: 32rem; margin: auto; }
+.science-figure figcaption { margin-top: .8rem; line-height: 1.6; }
+.science-figure figcaption strong { display: block; color: #253e49; }
+.image-slot { display: grid; gap: .3rem; padding: 2rem; border: 1px dashed #849aa3; background: #f3f6f7; text-align: center; }
+#header nav a { display: inline-block; padding-block: .3rem; }
+@media(max-width:736px) {
+  #banner { align-items: stretch; }
+  #banner figure { width: 100%; align-self: center; }
+}

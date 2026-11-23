@@ -19,9 +19,11 @@ David Calvert et al. · *{{ paper.publisher }}* **{{ paper.volume }}**, {{ paper
 
 [A Study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae (PDF)]({{ "/files/etd.pdf" | relative_url }})
 
-Ph.D. Dissertation, UC Berkeley & North Carolina State University (December 2025)
+Physics dissertation, North Carolina State University. Defended December 2025. Degree conferred May 2026.
 
-This dissertation explores the role of magnetic fields and stellar evolution on the explosion mechanism of massive stars, using state-of-the-art 3D MHD simulations and 1D parameter studies.
+This dissertation explores the role of magnetic fields and stellar evolution on the explosion mechanism of massive stars, using 3D MHD simulations and 1D parameter studies.
+
+## Manuscript in preparation
 
 ### Investigating The Relationship Between Stellar Structure And Core-collapse Supernovae Outcomes
 

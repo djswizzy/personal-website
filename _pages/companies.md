@@ -5,71 +5,35 @@ permalink: /companies/
 author_profile: true
 ---
 
-{% include base_path %}
-
 ## Atomionics
+**AI/ML Scientist · June 2026–present**
 
-**AI/ML Scientist** (Present)
+I built attention-based convolutional models to rank potential ore locations from raster data. On held-out datasets, the models achieved 0.92 ROC-AUC. I also built evaluation tools for a document-retrieval geology assistant and deployed containerized backend services on Azure with GitHub Actions.
 
-## KOINSLOT Inc. (2024 - Present)
+## KOINSLOT Inc.
+**Software Engineer · 2024–2026**
 
-[KOINSLOT Inc.](https://github.com/KOINSLOT-Inc/) develops Kywy, a handheld "low-code" educational coding device designed to make programming accessible and fun for learners.
+I developed games and graphics tools for Kywy, a handheld device for learning to code. [Explore the embedded graphics project]({{ '/portfolio/#embedded-graphics-for-kywy' | relative_url }}).
 
-### My Role: Software Engineer
+## Kondra Chemical
+**Independent App Developer · 2025**
 
-As a software engineer, I contribute to:
-- Developing complete games for the Kywy platform
-- Creating custom rotation algorithms for sprite rendering
-- Building asset-generation scripts in C++
+I delivered a [spectrometer control application]({{ '/portfolio/#spectrometer-control' | relative_url }}) for measuring chemical concentrations in water.
 
----
+## UC Berkeley and NC State University
+**Doctoral researcher in computational astrophysics · 2019–2025**
 
-## Kondra Chemical (2025)
+I modeled stellar collapse on distributed computing systems and analyzed the coupling between magnetic fields and turbulent plasma. [Explore the research]({{ '/research/' | relative_url }}).
 
-Kondra Chemical specializes in water quality analysis and chemical measurement solutions.
+## Insightsoftware
+**Business Systems Analyst · 2018–2019**
 
-### My Role: App Developer (Independent Contract)
+I used SQL and SOQL to migrate customer records into Salesforce following acquisitions.
 
-I designed, built, tested, and delivered a complete LabView application:
-- Hardware control for spectrometer interfacing
-- Real-time data acquisition from measurement devices
-- Concentration interpolation algorithms for chemical analysis
+## NC State Physics Department
+**IT Systems Administrator · 2015–2018**
 
----
-
-## UC Berkeley & NC State University (2019 - 2025)
-
-Research institutions where I conducted my doctoral research in computational astrophysics.
-
-### My Role: Supernova Physicist / Ph.D. Researcher
-
-- Utilized high-fidelity MHD FORTRAN 3D supernova code on distributed HPC systems
-- Explored the role of turbulent plasma flow in supernova evolution
-- Developed Python scripts for data analysis and publication figures
-- Adapted numerical solvers for nonlinear PDEs with constraint-preserving methods
-
----
-
-## Insightsoftware (2018 - 2019)
-
-Insightsoftware provides enterprise performance management and financial reporting solutions.
-
-### My Role: Business Systems Analyst
-
-- Planned and executed data migrations for multiple acquired companies
-- Leveraged SQL and SOQL to perform data migrations into Salesforce
-
----
-
-## North Carolina State University - Physics IT (2015 - 2018)
-
-The Physics Department at NC State University.
-
-### My Role: IT Systems Administrator
-
-- Co-managed IT operations for the Physics Department
-- Implemented Docker-based test environments
-- Gained fluency in Linux systems administration
+I co-managed departmental IT and built Linux test environments with Docker.
 
 ## Earlier education
 

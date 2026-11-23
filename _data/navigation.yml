@@ -23,6 +23,9 @@ main:
   - title: "Skills"
     url: /skills/
 
+  - title: "Experience"
+    url: /companies/
+
   - title: "CV"
     url: /cv/
     

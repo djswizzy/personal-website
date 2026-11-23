@@ -28,7 +28,9 @@
   "work": [
     {
       "company": "Atomionics",
-      "position": "AI/ML Scientist"
+      "position": "AI/ML Scientist",
+      "startDate": "2026-06",
+      "summary": "Predictive modeling for mineral exploration and evaluation of a retrieval-based geology assistant."
     },
     {
       "company": "UC Berkeley & NC State University",
@@ -60,7 +62,7 @@
       "position": "Software Engineer",
       "website": "https://github.com/KOINSLOT-Inc",
       "startDate": "2024",
-      "endDate": "Present",
+      "endDate": "2026",
       "summary": "Contributing to Kywy, a handheld educational coding device.",
       "highlights": [
         "Developed complete games and custom rotation algorithms for sprite rendering",
@@ -93,13 +95,15 @@
   ],
   "education": [
     {
-      "institution": "UC Berkeley & North Carolina State University",
-      "area": "Ph.D. in Astrophysics",
+      "institution": "North Carolina State University",
+      "area": "Physics (computational astrophysics)",
       "studyType": "Doctorate",
       "startDate": "2019",
-      "endDate": "2025",
+      "endDate": "2026-05",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Research at NC State and UC Berkeley. Defended and completed December 2025. Degree conferred May 2026."
+      ]
     },
     {
       "institution": "North Carolina State University",
