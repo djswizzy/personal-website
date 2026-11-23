@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: editorial
 permalink: /
 title: "David Calvert"
 excerpt: "Computational astrophysicist specializing in magnetohydrodynamics and core-collapse supernovae. AI/ML Scientist at Atomionics."
@@ -8,36 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-<main class="research-home">
-  <section class="research-home__hero" aria-labelledby="home-title">
-    <div>
-      <h1 id="home-title">David Calvert</h1>
-      <p class="research-home__role">Computational astrophysicist</p>
-      <p>I use three-dimensional magnetohydrodynamic simulations to study how magnetic fields and turbulence shape core-collapse supernovae.</p>
-      <p>AI/ML Scientist at Atomionics</p>
-      <div class="research-home__links">
-        <a href="{{ '/research/' | relative_url }}">Explore my research</a>
-        <a href="{{ '/cv/' | relative_url }}">View CV</a>
-      </div>
-    </div>
-    <figure>
-      <img src="{{ '/images/entropy.png' | relative_url }}" alt="Entropy distribution in a core-collapse supernova simulation" width="427" height="427">
-      <figcaption>Entropy in a core-collapse supernova simulation</figcaption>
-    </figure>
-  </section>
-
-  <section class="research-home__work" aria-labelledby="work-title">
-    <h2 id="work-title">Selected work</h2>
-    <div class="research-home__projects">
-      <article>
-        <h3><a href="https://doi.org/10.3847/1538-4357/ae1475">Turbulence in core-collapse supernovae</a></h3>
-        <p>A method for measuring turbulence in the region where neutrinos heat the gas behind the shock.</p>
-        <p><cite>The Astrophysical Journal</cite> · 2025</p>
-      </article>
-      <article>
-        <h3><a href="{{ '/portfolio/' | relative_url }}">Scientific and engineering software</a></h3>
-        <p>Selected projects in simulation, embedded C++, and spectrometer control and data acquisition.</p>
-      </article>
-    </div>
-  </section>
-</main>
+<section id="banner">
+  <div class="content">
+    <p class="role">AI/ML Scientist at Atomionics</p>
+    <h1>Inside a collapsing star</h1>
+    <p>I’m David Calvert, a computational astrophysicist. I simulate the final moments of massive stars to study how magnetic fields and turbulent plasma affect their explosions.</p>
+    <a class="button" href="{{ '/research/' | relative_url }}">Explore the research</a>
+  </div>
+  <figure><img src="{{ '/images/entropy.png' | relative_url }}" alt="Entropy distribution from a supernova simulation"><figcaption>Entropy in a simulated core-collapse supernova</figcaption></figure>
+</section>
+<section class="selection">
+  <header class="major"><h2>Selected work</h2></header>
+  <div class="posts">
+    <article><h3><a href="https://doi.org/10.3847/1538-4357/ae1475">Measuring supernova turbulence</a></h3><p>A closer look at how much turbulent motion supports the shock. Published in <em>The Astrophysical Journal</em>.</p></article>
+    <article><h3><a href="{{ '/portfolio/#spectrometer-control' | relative_url }}">From spectrum to concentration</a></h3><p>A LabVIEW application that controls a spectrometer and measures chemical concentrations in water samples.</p></article>
+  </div>
+</section>

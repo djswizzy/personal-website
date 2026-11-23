@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: editorial
 title: "Research Gallery"
 permalink: /gallery/
 author_profile: true

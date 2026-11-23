@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: editorial
 title: "Publications"
 permalink: /publications-auto/
 author_profile: true

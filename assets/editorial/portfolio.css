@@ -1,0 +1,27 @@
+body { color: #394852; font-size: 1rem; }
+#main > .inner { max-width: 84rem; margin: auto; }
+#header { padding-top: 2rem; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+#header nav { display: flex; flex-wrap: wrap; gap: .45rem 1.2rem; }
+#header nav a { color: #33454e; border: 0; font-weight: 600; }
+#header nav a[aria-current] { text-decoration: underline; text-underline-offset: .35em; }
+#banner { background: #112834; color: #edf4f4; padding: clamp(1.5rem,4vw,4rem); margin-top: 2rem; align-items: center; gap: 2rem; }
+#banner h1 { color: white; font-size: clamp(2.5rem,5vw,5rem); line-height: 1.03; }
+#banner .role { color: #ffc0aa; font-weight: 600; }
+#banner .button { color: white !important; }
+#banner figure { flex: 0 1 38%; min-width: 0; margin: 0; text-align: center; }
+#banner figure img { width: 100%; max-width: 427px; border-radius: 50%; }
+#banner figcaption { color: #dae7e9; font-size: .86rem; }
+.selection, .reading { padding: 3rem 0; }
+.reading { max-width: 52rem; margin: auto; }
+.reading img { max-width: 100%; height: auto; }
+.reading h2 { margin-top: 2rem; }
+.reading .third { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; align-items: center; }
+.reading figcaption { grid-column: 1 / -1; }
+.credits { border-top: 1px solid #ccd4d7; display: flex; flex-wrap: wrap; gap: 1rem; padding: 1.5rem 0; font-size: .9rem; }
+.credits span { margin-left: auto; }
+@media(max-width:736px) {
+  #header { display: block; }
+  #header nav { margin-top: .7rem; }
+  #banner { flex-direction: column; }
+  #banner figure { max-width: 17rem; }
+}

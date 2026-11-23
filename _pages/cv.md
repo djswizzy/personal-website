@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: editorial
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -19,6 +19,8 @@ Education
 
 Work Experience
 ======
+
+[Detailed experience]({{ "/companies/" | relative_url }})
 
 **AI/ML Scientist** (Present)  
 *Atomionics*
@@ -87,31 +89,7 @@ Work Experience
 Skills
 ======
 
-**Languages & Tools**
-* Python (NumPy, SciPy, mpi4py)
-* FORTRAN, C++, MATLAB
-* Docker, Git, MPI, OpenMP, OpenACC
-* VS Code, CUDA, Bash, LabView
-* Autodesk Fusion, Jupyter, HDF5, SLURM, LSF
-* SQL, SOQL, Salesforce, NetSuite, Dell Boomi
-* Spectrometer control, signal processing, and data acquisition
-
-**Technical & Scientific**
-* Plasma Physics
-* PDEs/ODEs & Vector Calculus
-* Numerical Methods
-* Multiphysics Simulation
-* Large Data Analytics
-* HPC Optimization
-* Statistical Analysis
-* Data Visualization
-
-**Soft Skills**
-* Scientific Communication
-* Mentoring & Collaboration
-* Project Organization
-* Technical Document Review
-* Language Learning (German, Spanish, Hindi)
+[View technical and additional skills]({{ "/skills/" | relative_url }})
 
 Publications
 ======

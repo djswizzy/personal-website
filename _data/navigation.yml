@@ -20,8 +20,8 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Experience"
-    url: /companies/
+  - title: "Skills"
+    url: /skills/
 
   - title: "CV"
     url: /cv/

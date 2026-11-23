@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: editorial
 title: "Experience"
 permalink: /companies/
 author_profile: true
