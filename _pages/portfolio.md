@@ -120,6 +120,24 @@ I run an Ubuntu home server hosting Plex, game servers, and OpenClaw. I use Dock
 
 </article>
 
+<article class="project-card" markdown="1">
+
+### Science communication and public talks
+
+I’ve given public astronomy talks at Astronomy on Tap in Oakland, California, and Durham, North Carolina, and at Astronomy Days in Raleigh. With the Raleigh Astronomy Club, I led public telescope observations. I also visited local middle schools to explain solar activity and sunspots and demonstrate observations with a solar-filtered telescope.
+
+</article>
+
+<article class="project-card" markdown="1">
+
+### Research mentorship
+
+At UC Berkeley, I mentored an undergraduate researcher through the [Network for Neutrinos, Nuclear Astrophysics, and Symmetries (N3AS)](https://n3as.berkeley.edu/). We investigated how changing nuclear beta-decay rates affects the elements produced in a neutron-star merger simulation. [View the project poster (PDF)]({{ '/files/N3AS%2520Poster.pdf.pdf' | relative_url }}).
+
+I also trained junior graduate students in Fortran, Python, and HPC environments. My teaching experience includes undergraduate electromagnetism and astronomy, alongside eight years of tutoring high-school and undergraduate physics and mathematics.
+
+</article>
+
 </div>
 </section>
 
