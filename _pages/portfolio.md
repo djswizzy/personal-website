@@ -132,7 +132,7 @@ I’ve given public astronomy talks at Astronomy on Tap in Oakland, California, 
 
 ### Research mentorship
 
-At UC Berkeley, I mentored an undergraduate researcher through the [Network for Neutrinos, Nuclear Astrophysics, and Symmetries (N3AS)](https://n3as.berkeley.edu/). We investigated how changing nuclear beta-decay rates affects the elements produced in a neutron-star merger simulation. [View the project poster (PDF)]({{ '/files/N3AS%2520Poster.pdf.pdf' | relative_url }}).
+At UC Berkeley, I mentored an undergraduate researcher through the [Network for Neutrinos, Nuclear Astrophysics, and Symmetries (N3AS)](https://n3as.berkeley.edu/). We investigated how changing nuclear beta-decay rates affects the elements produced in a neutron-star merger simulation. [View the project poster (PDF)]({{ '/files/n3as-mentorship-poster.pdf' | relative_url }}).
 
 I also trained junior graduate students in Fortran, Python, and HPC environments. My teaching experience includes undergraduate electromagnetism and astronomy, alongside eight years of tutoring high-school and undergraduate physics and mathematics.
 
