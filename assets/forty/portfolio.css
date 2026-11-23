@@ -121,3 +121,14 @@ figcaption strong { display:block; }
 
 .about-columns { display:grid; grid-template-columns:1fr 1fr; gap:3rem; }
 @media(max-width:736px) { .about-columns { grid-template-columns:1fr; gap:0; } }
+
+@font-face { font-family: "Portfolio Brands"; src: url("../webfonts/fa-brands-400.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: block; }
+@font-face { font-family: "Portfolio Solid"; src: url("../webfonts/fa-solid-900.woff2") format("woff2"); font-style: normal; font-weight: 900; font-display: block; }
+.profile-links { gap: 12px; }
+.profile-links .profile-icon { position: relative; display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid #93a4b9; border-radius: 50%; text-decoration: none; }
+.profile-icon:hover { background: #33465f; }
+.link-glyph { font-size: 22px; line-height: 1; }
+.link-glyph.brand { font-family: "Portfolio Brands"; }
+.link-glyph.solid { font-family: "Portfolio Solid"; font-weight: 900; }
+.icon-tooltip { position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; background: #0c1522; color: #fff; padding: 4px 9px; border-radius: 4px; font-size: 13px; opacity: 0; pointer-events: none; z-index: 5; }
+.profile-icon:hover .icon-tooltip, .profile-icon:focus-visible .icon-tooltip { opacity: 1; }

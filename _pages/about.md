@@ -15,13 +15,19 @@ redirect_from:
     <header class="major"><h1>AI for what lies beneath the surface.</h1></header>
     <div class="intro-copy"><p>I use AI and machine learning to predict what lies beneath the ground. My background in computational astrophysics shapes how I model complex systems and interpret their signals.</p><a class="button" href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">My current work</a></div>
     <nav class="profile-links" aria-label="Profiles and documents">
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
-      <a href="{{ site.author.orcid }}">ORCID</a>
-      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      <a href="{{ '/files/Resume.pdf' | relative_url }}">Résumé (PDF)</a>
-      <a href="{{ '/files/etd.pdf' | relative_url }}">Dissertation (PDF)</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" class="profile-icon" aria-label="LinkedIn" title="LinkedIn"><span class="link-glyph brand" aria-hidden="true">&#xf0e1;</span><span class="icon-tooltip" aria-hidden="true">LinkedIn</span></a>
+      <a href="{{ site.author.orcid }}" class="profile-icon" aria-label="ORCID" title="ORCID"><span class="link-glyph brand" aria-hidden="true">&#xf8d2;</span><span class="icon-tooltip" aria-hidden="true">ORCID</span></a>
+      <a href="https://github.com/{{ site.author.github }}" class="profile-icon" aria-label="GitHub" title="GitHub"><span class="link-glyph brand" aria-hidden="true">&#xf09b;</span><span class="icon-tooltip" aria-hidden="true">GitHub</span></a>
+      <a href="{{ '/files/Resume.pdf' | relative_url }}" class="profile-icon" aria-label="Résumé (PDF)" title="Résumé (PDF)"><span class="link-glyph solid" aria-hidden="true">&#xf1c1;</span><span class="icon-tooltip" aria-hidden="true">Résumé (PDF)</span></a>
+      <a href="{{ '/files/etd.pdf' | relative_url }}" class="profile-icon" aria-label="Dissertation (PDF)" title="Dissertation (PDF)"><span class="link-glyph solid" aria-hidden="true">&#xf02d;</span><span class="icon-tooltip" aria-hidden="true">Dissertation (PDF)</span></a>
     </nav>
   </div>
+</section>
+<section class="tiles" aria-label="Explore my work">
+  <article class="research-tile"><header class="major"><h2><a href="{{ '/portfolio/#magnetic-fields-and-turbulence' | relative_url }}">Inside a collapsing star</a></h2><p>Magnetic fields, turbulence, and three-dimensional simulations</p></header></article>
+  <article class="ai-tile"><header class="major"><h2><a href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">Reading the subsurface</a></h2><p>Predictive models and evaluation at Atomionics</p></header><span class="placeholder-label">Image placeholder · mineral exploration field survey</span></article>
+  <article class="papers-tile"><header class="major"><h2><a href="{{ '/publications-auto/' | relative_url }}">Research in print</a></h2><p>Two peer-reviewed papers on supernova dynamics</p></header></article>
+  <article class="engineering-tile"><header class="major"><h2><a href="{{ '/portfolio/' | relative_url }}">Code meets hardware</a></h2><p>Scientific instruments and embedded software</p></header><span class="placeholder-label">Image placeholder · spectrometer workbench</span></article>
 </section>
 <section class="closing inner" id="about">
   <h2>About me</h2>
@@ -36,10 +42,4 @@ redirect_from:
       <a class="button" href="{{ '/files/Resume.pdf' | relative_url }}">Download résumé</a>
     </div>
   </div>
-</section>
-<section class="tiles" aria-label="Explore my work">
-  <article class="research-tile"><header class="major"><h2><a href="{{ '/portfolio/#magnetic-fields-and-turbulence' | relative_url }}">Inside a collapsing star</a></h2><p>Magnetic fields, turbulence, and three-dimensional simulations</p></header></article>
-  <article class="ai-tile"><header class="major"><h2><a href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">Reading the subsurface</a></h2><p>Predictive models and evaluation at Atomionics</p></header><span class="placeholder-label">Image placeholder · mineral exploration field survey</span></article>
-  <article class="papers-tile"><header class="major"><h2><a href="{{ '/publications-auto/' | relative_url }}">Research in print</a></h2><p>Two peer-reviewed papers on supernova dynamics</p></header></article>
-  <article class="engineering-tile"><header class="major"><h2><a href="{{ '/portfolio/' | relative_url }}">Code meets hardware</a></h2><p>Scientific instruments and embedded software</p></header><span class="placeholder-label">Image placeholder · spectrometer workbench</span></article>
 </section>
