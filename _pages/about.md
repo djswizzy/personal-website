@@ -34,6 +34,7 @@ redirect_from:
   <div class="about-columns">
     <div>
       <p>I’m David Calvert, an AI/ML Scientist at Atomionics. I use machine learning to investigate what lies beneath the ground. Before that, I studied the magnetic fields and turbulent flows inside collapsing stars.</p>
+      <p>My quantum mechanics experience spans quantum neutrino oscillations in supernovae and, more recently, cold atom interferometry.</p>
       <p>My PhD research in computational astrophysics took me to NC State and UC Berkeley. I completed my defense in December 2025, and my PhD in Physics was conferred by North Carolina State University in May 2026.</p>
     </div>
     <div>
