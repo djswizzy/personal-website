@@ -109,7 +109,7 @@ figcaption strong { display:block; }
 }
 .publication-with-figure { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:24px; align-items:center; }
 .publication-figure { margin:0; }
-.publication-figure > a { display:block; border:0; background:white; }
+.publication-figure > a { display:block; border:1px solid #8296ad; border-radius:4px; overflow:hidden; background:white; }
 .publication-figure img { display:block; width:100%; height:155px; object-fit:contain; }
 .publication-figure figcaption { margin-top:6px; font-size:13px; line-height:1.4; color:#b4c5d7; }
 @media(max-width:600px) {
