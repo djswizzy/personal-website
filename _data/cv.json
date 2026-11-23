@@ -194,7 +194,11 @@
       "website": "https://doi.org/10.1103/lgc5-tn23",
       "summary": "In three-dimensional simulations, stronger initial magnetic fields reduced turbulent motion behind the shock.",
       "volume": "114",
-      "article": "083043"
+      "article": "083043",
+      "figure": "magnetic-energy.png",
+      "figure_alt": "Map of energy transfer between magnetic field and fluid in the s20-T10 supernova model.",
+      "figure_caption": "Field–fluid energy exchange · Fig. 6, upper panel",
+      "figure_source": "https://arxiv.org/html/2608.24578v1#S3.F6"
     },
     {
       "name": "Turbulence in Core-Collapse Supernovae",
@@ -203,7 +207,11 @@
       "website": "https://doi.org/10.3847/1538-4357/ae1475",
       "summary": "Different ways of separating turbulent motion from the average flow change how much support turbulence appears to give the supernova shock.",
       "volume": "995",
-      "article": "109"
+      "article": "109",
+      "figure": "timescales.png",
+      "figure_alt": "Advection-to-heating timescale ratio versus time for four progenitor models.",
+      "figure_caption": "Heating and advection timescales · Fig. 4",
+      "figure_source": "https://arxiv.org/html/2511.16755v1#S2.F4"
     }
   ]
 }
