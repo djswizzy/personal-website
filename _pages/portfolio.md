@@ -20,7 +20,7 @@ author_profile: true
 
 ### AI and ML for mineral exploration
 
-At Atomionics, I develop models to predict potential ore locations from raster data. My work includes convolutional neural networks with attention, evaluation of predictive models and a retrieval-based geology assistant, and deployment on Azure.
+At Atomionics, I build machine-learning networks from scratch for subsurface prediction. Alongside that work, I’m building evaluations for large language models.
 
 <figure class="project-image">
   <img src="{{ '/images/projects/atomionics-earth.png' | relative_url }}" alt="Illustration of Earth cut away to reveal its internal layers.">
@@ -42,7 +42,7 @@ At Atomionics, I develop models to predict potential ore locations from raster d
 
 ### Magnetic fields and turbulence
 
-How much does turbulence help a stalled supernova shock expand? I ran three-dimensional magnetohydrodynamic (MHD) simulations on distributed computing systems and tested how the choice of average affects the inferred turbulent flow.
+I reworked and wrote large sections of Fortran magnetohydrodynamics (MHD) code for three-dimensional core-collapse supernova simulations. I ran the models on distributed HPC systems and investigated how the choice of averaging method changes the amount of motion attributed to turbulence.
 
 <details markdown="1">
 <summary>Methods and findings</summary>
@@ -71,9 +71,9 @@ I connected MESA stellar evolution models with AGILE explosion simulations. By v
 
 <article class="project-card" markdown="1">
 
-### Neutrino flavor
+### Neutrino flavor oscillations {#neutrino-flavor}
 
-I extended a C++ neutrino oscillation code and coupled it to a one-dimensional collapse model. In the conditions I tested, conversion away from electron flavor reduced neutrino heating behind the shock.
+I modified a C++ neutrino flavor oscillation code to include nonstandard neutrino interactions and coupled it to a one-dimensional core-collapse supernova model. In these models, conversion away from electron flavor reduced neutrino heating behind the shock and made explosions less likely.
 
 [Read my dissertation]({{ '/files/etd.pdf' | relative_url }}) · [View simulation figures]({{ '/gallery/' | relative_url }})
 
@@ -92,7 +92,7 @@ I extended a C++ neutrino oscillation code and coupled it to a one-dimensional c
 
 ### Spectrometer control
 
-For Kondra Chemical, I developed the entire spectrometer control application from scratch in LabVIEW. I built the graphical user interface, sample motor control, spectrometer control and data acquisition, and chemical composition interpolation. The application brings instrument operation and sample analysis together in one interface.
+For Kondra Chemical, I built the entire control application from scratch in LabVIEW, including the GUI, spectrometer data acquisition, and motor control for a six-sample wheel. I used calibration curves to linearly interpolate chemical concentrations from the spectrometer signal.
 
 <aside class="image-slot" aria-label="Project image placeholder"><strong>Instrument setup</strong><span>Photo placeholder · spectrometer and sample cell</span></aside>
 
@@ -102,7 +102,7 @@ For Kondra Chemical, I developed the entire spectrometer control application fro
 
 ### Embedded graphics for Kywy
 
-I wrote games, sprite rotation routines, and C++ asset-generation tools for KOINSLOT’s handheld educational coding device. [Browse KOINSLOT on GitHub](https://github.com/KOINSLOT-Inc/).
+I built Asteroids for Kywy, KOINSLOT’s handheld educational coding device. My main contribution was to the sprite rotation methods in its C++ sprite-drawing class. [Browse KOINSLOT on GitHub](https://github.com/KOINSLOT-Inc/).
 
 <figure class="project-image">
   <img src="{{ '/images/projects/kywy-handheld.png' | relative_url }}" width="430" height="267" alt="Front and rear views of the green Kywy handheld, showing its screen, controls, and enclosure.">
@@ -124,7 +124,7 @@ I wrote games, sprite rotation routines, and C++ asset-generation tools for KOIN
 
 ### Wedding phone guestbook
 
-I built a phone guestbook for my wedding, putting my soldering and electronics skills into practice.
+I converted an old rotary-dial phone into a wedding guestbook using a Raspberry Pi, a signal generator, and a millimeter-wave motion sensor. When someone walked past, the sensor triggered the phone to ring. I soldered the receiver connections for USB audio so it could record messages and play audio through the speakers.
 
 <aside class="image-slot" aria-label="Project image placeholder"><strong>Wedding phone guestbook</strong><span>Photo placeholder · finished phone and internal electronics</span></aside>
 
@@ -134,7 +134,7 @@ I built a phone guestbook for my wedding, putting my soldering and electronics s
 
 ### Home server
 
-I run a home server using Docker and related system administration software. It gives me a place to apply my skills in containerized services and server administration.
+I run an Ubuntu home server hosting Plex, game servers, and OpenClaw. I use Docker and system administration tools to manage the services.
 
 <aside class="image-slot" aria-label="Project image placeholder"><strong>Home server</strong><span>Image placeholder · server setup or service dashboard</span></aside>
 
