@@ -184,18 +184,22 @@
   ],
   "publications": [
     {
-      "name": "Turbulence in Core-Collapse Supernovae",
-      "publisher": "Astrophysical Journal",
-      "releaseDate": "2025",
-      "website": "",
-      "summary": "Investigation of turbulent plasma flow in supernova evolution."
+      "name": "Interplay of magnetic fields, turbulence, and vorticity in core-collapse supernovae",
+      "publisher": "Physical Review D",
+      "releaseDate": "2026",
+      "website": "https://doi.org/10.1103/lgc5-tn23",
+      "summary": "In three-dimensional simulations, stronger initial magnetic fields reduced turbulent motion behind the shock.",
+      "volume": "114",
+      "article": "083043"
     },
     {
-      "name": "The Interplay of Magnetic Fields and Vorticity in Core-Collapse Supernovae",
-      "publisher": "Astrophysical Journal (In prep)",
+      "name": "Turbulence in Core-Collapse Supernovae",
+      "publisher": "The Astrophysical Journal",
       "releaseDate": "2025",
-      "website": "",
-      "summary": "Study of magnetic field dynamics in core-collapse supernovae."
+      "website": "https://doi.org/10.3847/1538-4357/ae1475",
+      "summary": "Different ways of separating turbulent motion from the average flow change how much support turbulence appears to give the supernova shock.",
+      "volume": "995",
+      "article": "109"
     }
   ]
 }

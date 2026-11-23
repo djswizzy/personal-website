@@ -25,3 +25,5 @@ body { color: #394852; font-size: 1rem; }
   #banner { flex-direction: column; }
   #banner figure { max-width: 17rem; }
 }
+#banner .profile-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: 1.5rem; }
+#banner .profile-links a { color: #fff; border-bottom-color: #aac5ce; }
