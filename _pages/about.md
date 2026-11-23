@@ -11,8 +11,8 @@ redirect_from:
 
 <section class="intro">
   <div class="identity"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="David Calvert" width="80" height="80"><p>David Calvert, PhD<br>AI/ML Scientist at Atomionics</p></div>
-  <h1>Physics at scale.<br>From stars to software.</h1>
-  <div class="intro-bottom"><p>I study magnetic fields and turbulence in collapsing stars, and build tools that turn complex data into useful measurements.</p>
+  <h1>AI for what lies<br>beneath the surface.</h1>
+  <div class="intro-bottom"><p>At Atomionics, I use AI and machine learning to predict what lies beneath the ground. My background in computational astrophysics shapes how I model complex systems and interpret their signals.</p>
   <nav class="profile-links" aria-label="Profiles and documents">
     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
     <a href="{{ site.author.orcid }}">ORCID</a>
