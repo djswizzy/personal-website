@@ -9,39 +9,24 @@ redirect_from:
 ---
 
 
-<section class="intro">
-  <div class="identity"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="David Calvert" width="80" height="80"><p>David Calvert, PhD<br>AI/ML Scientist at Atomionics</p></div>
-  <h1>AI for what lies<br>beneath the surface.</h1>
-  <div class="intro-bottom"><p>At Atomionics, I use AI and machine learning to predict what lies beneath the ground. My background in computational astrophysics shapes how I model complex systems and interpret their signals.</p>
-  <nav class="profile-links" aria-label="Profiles and documents">
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
-    <a href="{{ site.author.orcid }}">ORCID</a>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    <a href="{{ '/files/Resume.pdf' | relative_url }}">Résumé (PDF)</a>
-    <a href="{{ '/files/etd.pdf' | relative_url }}">Dissertation (PDF)</a>
-  </nav></div>
+<section id="banner" class="major">
+  <div class="inner">
+    <div class="identity"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="David Calvert" width="80" height="80"><p>David Calvert, PhD<br>AI/ML Scientist at Atomionics</p></div>
+    <header class="major"><h1>AI for what lies beneath the surface.</h1></header>
+    <div class="intro-copy"><p>I use AI and machine learning to predict what lies beneath the ground. My background in computational astrophysics shapes how I model complex systems and interpret their signals.</p><a class="button" href="{{ '/companies/#atomionics' | relative_url }}">My current work</a></div>
+    <nav class="profile-links" aria-label="Profiles and documents">
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
+      <a href="{{ site.author.orcid }}">ORCID</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="{{ '/files/Resume.pdf' | relative_url }}">Résumé (PDF)</a>
+      <a href="{{ '/files/etd.pdf' | relative_url }}">Dissertation (PDF)</a>
+    </nav>
+  </div>
 </section>
-<section class="work-index" aria-labelledby="work-title">
-  <div class="section-head"><h2 id="work-title">Selected work</h2><div class="filters" role="group" aria-label="Filter work" hidden>
-    <button aria-pressed="true" data-filter="all">All</button>
-    <button aria-pressed="false" data-filter="research">Research</button>
-    <button aria-pressed="false" data-filter="engineering">Engineering</button>
-  </div></div>
-  <a class="work-row" data-category="research" href="{{ '/research/' | relative_url }}">
-    <div><span>Computational astrophysics</span><h3>Magnetic fields.<br>Turbulent stars.</h3><p>Three-dimensional simulations of core-collapse supernovae.</p></div>
-    <figure class="simulation"><img src="{{ '/images/entropy.png' | relative_url }}" alt="Entropy in a simulated core-collapse supernova"></figure>
-  </a>
-  <a class="work-row" data-category="research" href="{{ '/publications-auto/' | relative_url }}">
-    <div><span>Two peer-reviewed papers · 2025–2026</span><h3>Measuring the<br>motion within.</h3><p>Turbulence, vorticity, and magnetic-field feedback.</p></div>
-    <figure><img src="{{ '/images/previews/image2.jpg' | relative_url }}" alt="Four views of magnetic field and vorticity alignment"></figure>
-  </a>
-  <a class="work-row" data-category="engineering" href="{{ '/portfolio/#spectrometer-control' | relative_url }}">
-    <div><span>Instrumentation · LabVIEW</span><h3>From spectrum<br>to concentration.</h3><p>Spectrometer control and real-time water sample analysis.</p></div>
-    <div class="image-slot"><strong>Instrument setup</strong><span>Photo placeholder · spectrometer and sample cell</span></div>
-  </a>
-  <a class="work-row" data-category="engineering" href="{{ '/portfolio/#embedded-graphics-for-kywy' | relative_url }}">
-    <div><span>Embedded software · C++</span><h3>Small hardware.<br>Hands-on learning.</h3><p>Games, sprite rotation, and asset tools for Kywy.</p></div>
-    <div class="image-slot"><strong>Kywy in use</strong><span>Photo placeholder · handheld running a game</span></div>
-  </a>
+<section class="tiles" aria-label="Explore my work">
+  <article class="research-tile"><header class="major"><h2><a href="{{ '/research/' | relative_url }}">Inside a collapsing star</a></h2><p>Magnetic fields, turbulence, and three-dimensional simulations</p></header></article>
+  <article class="ai-tile"><header class="major"><h2><a href="{{ '/companies/#atomionics' | relative_url }}">Reading the subsurface</a></h2><p>Predictive models and evaluation at Atomionics</p></header><span class="placeholder-label">Image placeholder · mineral exploration field survey</span></article>
+  <article class="papers-tile"><header class="major"><h2><a href="{{ '/publications-auto/' | relative_url }}">Research in print</a></h2><p>Two peer-reviewed papers on supernova dynamics</p></header></article>
+  <article class="engineering-tile"><header class="major"><h2><a href="{{ '/portfolio/' | relative_url }}">Code meets hardware</a></h2><p>Scientific instruments and embedded software</p></header><span class="placeholder-label">Image placeholder · spectrometer workbench</span></article>
 </section>
-<script src="{{ '/assets/nordlyn/work.js' | relative_url }}" defer></script>
+<section class="closing inner"><h2>From simulation to measurement</h2><p>Explore the methods behind my work, from numerical solvers and distributed computing to machine learning and instrument control.</p><a class="button" href="{{ '/skills/' | relative_url }}">Explore skills</a><a class="text-link" href="{{ '/gallery/' | relative_url }}">Research gallery</a></section>

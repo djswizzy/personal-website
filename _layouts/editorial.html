@@ -7,19 +7,20 @@
   <script src="{{ '/assets/editorial/appearance.js' | relative_url }}"></script>
   <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}">
 
-  <link rel="stylesheet" href="{{ '/assets/nordlyn/portfolio.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/forty/theme.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/forty/portfolio.css' | relative_url }}">
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
 <div id="wrapper">
-  <div id="main"><div class="inner">
+
     <header id="header">
       <a class="logo" href="{{ '/' | relative_url }}"><strong>David Calvert</strong></a>
-      <nav aria-label="Primary">
+      <details class="site-menu"><summary>Menu</summary><nav aria-label="Primary">
         {% for item in site.data.navigation.main %}
           <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {% endfor %}
-      </nav>
+      </nav></details>
       <button class="appearance-control" id="appearance" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
         <svg class="theme-icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
         <svg class="theme-icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 13.2A8.8 8.8 0 0 1 10.8 3.3a9 9 0 1 0 9.9 9.9Z"/></svg>
@@ -33,8 +34,8 @@
     <footer class="credits">
       <a href="mailto:{{ site.author.email }}">Email David</a>
       <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      <span>David Calvert · Computational astrophysics</span>
+      <span>Design adapted from <a href="https://html5up.net/forty">Forty by HTML5 UP</a></span>
     </footer>
-  </div></div>
+
 </div>
 </body></html>
