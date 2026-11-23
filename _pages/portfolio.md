@@ -22,11 +22,6 @@ author_profile: true
 
 At Atomionics, I build machine-learning networks from scratch for subsurface prediction. Alongside that work, I’m building evaluations for large language models.
 
-<figure class="project-image">
-  <img src="{{ '/images/projects/atomionics-earth.png' | relative_url }}" alt="Illustration of Earth cut away to reveal its internal layers.">
-  <figcaption>Exploring beneath the surface · <a href="https://www.atomionics.com/">Atomionics</a>.</figcaption>
-</figure>
-
 </article>
 
 </div>
@@ -54,16 +49,11 @@ In our [2026 study](https://doi.org/10.1103/lgc5-tn23), we varied the initial to
 
 </details>
 
-<figure class="science-figure">
-  <img src="{{ '/images/previews/image2.jpg' | relative_url }}" alt="Four slices showing the magnetic field and vorticity at varied angles throughout the expanding flow.">
-  <figcaption>Magnetic field and vorticity stayed close to randomly aligned as the flow evolved. <a href="{{ '/images/image2.png' | relative_url }}">Inspect the full-resolution figure</a></figcaption>
-</figure>
-
 </article>
 
 <article class="project-card" markdown="1">
 
-### Stellar evolution and the remnant
+### Stellar evolution
 
 I connected MESA stellar evolution models with AGILE explosion simulations. By varying stellar winds and convective overshooting, I traced how uncertainties in a star’s earlier life affect its explosion and the mass it leaves behind.
 
@@ -94,7 +84,6 @@ I modified a C++ neutrino flavor oscillation code to include nonstandard neutrin
 
 For Kondra Chemical, I built the entire control application from scratch in LabVIEW, including the GUI, spectrometer data acquisition, and motor control for a six-sample wheel. I used calibration curves to linearly interpolate chemical concentrations from the spectrometer signal.
 
-<aside class="image-slot" aria-label="Project image placeholder"><strong>Instrument setup</strong><span>Photo placeholder · spectrometer and sample cell</span></aside>
 
 </article>
 
@@ -103,11 +92,6 @@ For Kondra Chemical, I built the entire control application from scratch in LabV
 ### Embedded graphics for Kywy
 
 I built Asteroids for Kywy, KOINSLOT’s handheld educational coding device. My main contribution was to the sprite rotation methods in its C++ sprite-drawing class. [Browse KOINSLOT on GitHub](https://github.com/KOINSLOT-Inc/).
-
-<figure class="project-image">
-  <img src="{{ '/images/projects/kywy-handheld.png' | relative_url }}" width="430" height="267" alt="Front and rear views of the green Kywy handheld, showing its screen, controls, and enclosure.">
-  <figcaption>Kywy handheld · Product render from <a href="https://kywy.io/">KYWY / KOINSLOT</a>.</figcaption>
-</figure>
 
 </article>
 
@@ -126,8 +110,6 @@ I built Asteroids for Kywy, KOINSLOT’s handheld educational coding device. My 
 
 I converted an old rotary-dial phone into a wedding guestbook using a Raspberry Pi, a signal generator, and a millimeter-wave motion sensor. When someone walked past, the sensor triggered the phone to ring. I soldered the receiver connections for USB audio so it could record messages and play audio through the speakers.
 
-<aside class="image-slot" aria-label="Project image placeholder"><strong>Wedding phone guestbook</strong><span>Photo placeholder · finished phone and internal electronics</span></aside>
-
 </article>
 
 <article class="project-card" markdown="1">
@@ -135,8 +117,6 @@ I converted an old rotary-dial phone into a wedding guestbook using a Raspberry 
 ### Home server
 
 I run an Ubuntu home server hosting Plex, game servers, and OpenClaw. I use Docker and system administration tools to manage the services.
-
-<aside class="image-slot" aria-label="Project image placeholder"><strong>Home server</strong><span>Image placeholder · server setup or service dashboard</span></aside>
 
 </article>
 

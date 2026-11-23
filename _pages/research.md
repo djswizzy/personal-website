@@ -7,9 +7,9 @@ author_profile: true
 
 ## Magnetic fields and turbulence
 
-How much does turbulence help a stalled supernova shock expand? I ran three-dimensional magnetohydrodynamic (MHD) simulations on distributed computing systems and tested how the choice of average affects the inferred turbulent flow.
+How much does turbulence help a stalled supernova shock expand? I ran three-dimensional magnetohydrodynamic (MHD) simulations on distributed HPC systems and investigated how the choice of average affects the inferred turbulent flow.
 
-Our [2025 paper](https://doi.org/10.3847/1538-4357/ae1475) compared ways of separating turbulent motion from the average flow. The choice changed how much kinetic energy we attributed to turbulence.
+Our [2025 paper](https://doi.org/10.3847/1538-4357/ae1475) compared ways of separating turbulent motion from the average flow. Ultimately, the choice changed how much kinetic energy we attributed to turbulence.
 
 In our [2026 study](https://doi.org/10.1103/lgc5-tn23), we varied the initial toroidal magnetic field in simulations of 15- and 20-solar-mass stars. The strongly magnetized models had lower turbulent kinetic energy and enstrophy. The size of the energy reduction depended on how we measured turbulence.
 
@@ -22,8 +22,8 @@ In our [2026 study](https://doi.org/10.1103/lgc5-tn23), we varied the initial to
 
 I connected MESA stellar evolution models with AGILE explosion simulations. By varying stellar winds and convective overshooting, I traced how uncertainties in a star’s earlier life affect its explosion and the mass it leaves behind.
 
-## Neutrino flavor
+## Neutrino flavor oscillations
 
-I extended a C++ neutrino oscillation code and coupled it to a one-dimensional collapse model. In the conditions I tested, conversion away from electron flavor reduced neutrino heating behind the shock.
+I extended a C++ neutrino oscillation code and coupled it to a one-dimensional core-collapse supernova model. By incorporating nonstandard neutrino interations, flavor conversion away from electron reduced neutrino heating behind the shock and reduced explosion likelihood.
 
 [Read my dissertation]({{ '/files/etd.pdf' | relative_url }}) · [View simulation figures]({{ '/gallery/' | relative_url }})
