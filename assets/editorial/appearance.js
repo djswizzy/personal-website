@@ -19,9 +19,11 @@
   document.addEventListener('DOMContentLoaded', () => {
     const select = document.getElementById('appearance');
     select.value = choice;
+    select.title = 'Color theme: ' + choice;
     select.closest('label').hidden = false;
     select.addEventListener('change', () => {
       choice = select.value;
+      select.title = 'Color theme: ' + choice;
       apply();
       try {
         localStorage.setItem(key, choice);
