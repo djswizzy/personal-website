@@ -42,4 +42,7 @@ For Kondra Chemical, I built a LabVIEW application that controls a spectrometer,
 
 I wrote games, sprite rotation routines, and C++ asset-generation tools for KOINSLOT’s handheld educational coding device. [Browse KOINSLOT on GitHub](https://github.com/KOINSLOT-Inc/).
 
-<aside class="image-slot" aria-label="Project image placeholder"><strong>Kywy in use</strong><span>Photo placeholder · handheld running a game</span></aside>
+<figure class="project-image">
+  <img loading="lazy" src="{{ '/images/projects/kywy-handheld.png' | relative_url }}" width="430" height="267" alt="Front and rear views of the green Kywy handheld, showing its screen, controls, and enclosure.">
+  <figcaption>Kywy handheld · Product render from <a href="https://kywy.io/">KYWY / KOINSLOT</a>.</figcaption>
+</figure>

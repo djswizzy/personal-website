@@ -27,7 +27,7 @@ redirect_from:
   <article class="research-tile"><header class="major"><h2><a href="{{ '/portfolio/#magnetic-fields-and-turbulence' | relative_url }}">Inside a collapsing star</a></h2><p>Magnetic fields, turbulence, and three-dimensional simulations</p></header></article>
   <article class="ai-tile"><header class="major"><h2><a href="{{ '/portfolio/#ai-and-ml-for-mineral-exploration' | relative_url }}">Reading the subsurface</a></h2><p>Predictive models and evaluation at Atomionics</p></header><span class="placeholder-label">Image placeholder · mineral exploration field survey</span></article>
   <article class="papers-tile"><header class="major"><h2><a href="{{ '/publications-auto/' | relative_url }}">Research in print</a></h2><p>Two peer-reviewed papers on supernova dynamics</p></header></article>
-  <article class="engineering-tile"><header class="major"><h2><a href="{{ '/portfolio/' | relative_url }}">Code meets hardware</a></h2><p>Scientific instruments and embedded software</p></header><span class="placeholder-label">Image placeholder · spectrometer workbench</span></article>
+  <article class="engineering-tile"><header class="major"><h2><a href="{{ '/portfolio/' | relative_url }}">Code meets hardware</a></h2><p>Scientific instruments and embedded software</p></header></article>
 </section>
 <section class="closing inner" id="about">
   <h2>About me</h2>
