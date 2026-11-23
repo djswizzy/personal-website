@@ -5,34 +5,26 @@ permalink: /publications-auto/
 author_profile: true
 ---
 
-{% include base_path %}
-
+<div class="publication-list">
 {% for paper in site.data.cv.publications %}
-## [{{ paper.name }}]({{ paper.website }})
-
-David Calvert et al. · *{{ paper.publisher }}* **{{ paper.volume }}**, {{ paper.article }} ({{ paper.releaseDate }})
-
-{{ paper.summary }}
-
+<article class="publication-entry">
+  <h2><a href="{{ paper.website }}">{{ paper.name }}</a></h2>
+  <p class="publication-citation">David Calvert et al. · <cite>{{ paper.publisher }}</cite> <strong>{{ paper.volume }}</strong>, {{ paper.article }} · {{ paper.releaseDate }}</p>
+  <p class="publication-summary">{{ paper.summary }}</p>
+</article>
 {% endfor %}
-## Dissertation
 
-[A Study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae (PDF)]({{ "/files/etd.pdf" | relative_url }})
+<article class="publication-entry">
+  <p class="publication-kind">Dissertation</p>
+  <h2><a href="{{ '/files/etd.pdf' | relative_url }}">A Study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae</a></h2>
+  <p class="publication-citation">David Calvert · Physics, North Carolina State University · PDF</p>
+  <p class="publication-summary">Defended December 2025. Degree conferred May 2026.</p>
+</article>
 
-Physics dissertation, North Carolina State University. Defended December 2025. Degree conferred May 2026.
-
-This dissertation explores the role of magnetic fields and stellar evolution on the explosion mechanism of massive stars, using 3D MHD simulations and 1D parameter studies.
-
-## Manuscript in preparation
-
-### Investigating The Relationship Between Stellar Structure And Core-collapse Supernovae Outcomes
-
-**Calvert, D.**, et al.
-
-(In preparation, 2026)
-
-Parameter study investigating how poorly constrained stellar evolution physics, including wind efficiency and convective overshooting treatments, impact supernova explosion properties and remnant masses using MESA and AGILE simulations.
-
----
-
-
+<article class="publication-entry">
+  <p class="publication-kind">Manuscript in preparation</p>
+  <h2>Investigating the Relationship Between Stellar Structure and Core-Collapse Supernovae Outcomes</h2>
+  <p class="publication-citation">David Calvert et al. · 2026</p>
+  <p class="publication-summary">MESA and AGILE parameter studies of how stellar winds and convective overshooting affect explosions and remnant masses.</p>
+</article>
+</div>
