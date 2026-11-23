@@ -1,6 +1,7 @@
 ---
 layout: editorial
 title: "Publications"
+wide_content: true
 permalink: /publications-auto/
 author_profile: true
 ---

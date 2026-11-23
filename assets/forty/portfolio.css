@@ -116,3 +116,5 @@ figcaption strong { display:block; }
   .publication-with-figure { grid-template-columns:1fr; gap:16px; }
   .publication-figure { width:100%; max-width:320px; }
 }
+
+.reading.reading-wide { max-width:1120px; width:calc(100% - 3rem); }
