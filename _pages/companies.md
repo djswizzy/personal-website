@@ -70,3 +70,7 @@ The Physics Department at NC State University.
 - Co-managed IT operations for the Physics Department
 - Implemented Docker-based test environments
 - Gained fluency in Linux systems administration
+
+## Earlier education
+
+Before studying physics and applied mathematics at North Carolina State University, I attended the North Carolina School of Science and Mathematics (NCSSM) and the Marine Academy of Technology and Environmental Science (MATES).

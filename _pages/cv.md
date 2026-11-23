@@ -17,6 +17,8 @@ Education
   * Dissertation: A study of Magnetic Fields and Stellar Evolution on Core-Collapse Supernovae
 * **B.S. in Physics with Honors & Applied Mathematics** - North Carolina State University, May 2018
 
+Earlier education included the North Carolina School of Science and Mathematics (NCSSM) and the Marine Academy of Technology and Environmental Science (MATES).
+
 Work Experience
 ======
 
