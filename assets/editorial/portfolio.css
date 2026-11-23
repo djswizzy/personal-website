@@ -71,14 +71,16 @@ a:focus-visible { outline: 3px solid #006481; outline-offset: 4px; }
   margin: 0;
   border: 1px solid #85959c;
   border-radius: 50%;
-  color: inherit;
+  color: inherit !important;
+  padding: 0;
+  box-shadow: none;
+  cursor: pointer;
 }
 .appearance-control:hover { background: rgba(130,150,160,.14); }
-.appearance-control:focus-within { outline: 3px solid #3994af; outline-offset: 3px; }
+.appearance-control:focus-visible { outline: 3px solid #3994af; outline-offset: 3px; }
 .theme-icon { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.65; stroke-linecap: round; }
 .moon, [data-appearance="dark"] .sun { display: none; }
 [data-appearance="dark"] .moon { display: block; }
-#appearance { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 @media (max-width: 58rem) {
   #header { grid-template-columns: 1fr auto; grid-template-areas: "name theme" "links links"; row-gap: .65rem; }
   #header nav { justify-content: start; margin-top: 0; }

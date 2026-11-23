@@ -2,28 +2,31 @@
   const key = 'portfolio-appearance';
   const system = window.matchMedia('(prefers-color-scheme: dark)');
   let choice = 'system';
+  let button;
   try {
     const saved = localStorage.getItem(key);
     if (saved === 'light' || saved === 'dark') choice = saved;
   } catch {
-    // The selector still works when storage is unavailable.
+    // Use the device preference if storage is unavailable.
   }
 
   function apply() {
-    document.documentElement.dataset.appearance =
-      choice === 'system' ? (system.matches ? 'dark' : 'light') : choice;
+    const dark = choice === 'system' ? system.matches : choice === 'dark';
+    document.documentElement.dataset.appearance = dark ? 'dark' : 'light';
+    if (button) {
+      button.setAttribute('aria-pressed', String(dark));
+      button.title = dark ? 'Switch to light mode' : 'Switch to dark mode';
+    }
   }
 
   apply();
   system.addEventListener('change', apply);
   document.addEventListener('DOMContentLoaded', () => {
-    const select = document.getElementById('appearance');
-    select.value = choice;
-    select.title = 'Color theme: ' + choice;
-    select.closest('label').hidden = false;
-    select.addEventListener('change', () => {
-      choice = select.value;
-      select.title = 'Color theme: ' + choice;
+    button = document.getElementById('appearance');
+    apply();
+    button.hidden = false;
+    button.addEventListener('click', () => {
+      choice = document.documentElement.dataset.appearance === 'dark' ? 'light' : 'dark';
       apply();
       try {
         localStorage.setItem(key, choice);
